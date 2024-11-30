@@ -1,12 +1,14 @@
 import yfinance as yf
 import pandas as pd
 
-
-def add_finance_data(df_data):
+def add_external_data(df_data):
     df_data = add_dax_data(df_data)
     df_data = add_interest_rate_data(df_data)
     df_data = add_inflation_data(df_data)
     df_data = add_consumer_price_index_data(df_data)
+    df_data = add_msci_world_data(df_data)
+    #df_data = add_energy_crisis_data(df_data)
+    #df_data = add_covid_data(df_data)
     df_data.drop(columns=['Date_x', 'Date_y'], inplace=True)
 
     return df_data
@@ -162,3 +164,104 @@ def add_consumer_price_index_data(df_data):
 
     # Display the merged DataFrame
     return df_merged
+
+
+def add_msci_world_data(df_data):
+    """
+    This function loads the MSCI world data from a CSV file and merges it with the input DataFrame based on the
+     'i_START' column
+    :param df_data: Input DataFrame with the 'i_START' column
+    :return df_merged: Merged DataFrame with the MSCI world data
+    """
+    # Load the inflation rate CSV file
+    msci_df = pd.read_csv('../Data/MSCI_World.csv', delimiter=';')
+
+    # Convert the Year and Month columns to a datetime format
+    msci_df['Date'] = pd.to_datetime(msci_df['Date'], format='%Y-%m')
+    # Ensure i_START is in datetime format
+    df_data['i_START'] = pd.to_datetime(df_data['i_START'])
+
+    # Extract the year and month from i_START
+    df_data['Year'] = df_data['i_START'].dt.year
+    df_data['Month'] = df_data['i_START'].dt.month
+
+    # Extract the year and month from Date
+    msci_df['Year'] = msci_df['Date'].dt.year
+    msci_df['Month'] = msci_df['Date'].dt.month
+
+    df_merged = pd.merge(df_data, msci_df[['Year', 'Month', 'MSCI World']],
+                         on=['Year', 'Month'], how='left')
+
+    # Rename the 'Change to previous years month' column to 'inflation_rate'
+    df_merged.rename(columns={'MSCI World': 'MSCI_world'}, inplace=True)
+
+    df_merged['MSCI_world'] = pd.to_numeric(df_merged['MSCI_world'], errors='coerce')
+
+    # Drop the temporary Year and Month columns
+    df_merged.drop(columns=['Year', 'Month'], inplace=True)
+
+    # Display the merged DataFrame
+    return df_merged
+
+
+def add_energy_crisis_data(df_data):
+    """
+        This function loads the energy crisis data from a CSV file and merges it with the input DataFrame based on the
+         'i_START' column
+        :param df_data: Input DataFrame
+        :return df_merged: Merged DataFrame with the energy crisis data
+        """
+    # Load the inflation rate CSV file
+    energy_df = pd.read_csv('../Data/Energy_Crisis_Data.csv',
+                               delimiter=';')
+
+    # Convert the Year and Month columns to a datetime format
+    energy_df['Date'] = pd.to_datetime(energy_df['Date'], format='%Y-%m')
+    # Ensure i_START is in datetime format
+    df_data['i_START'] = pd.to_datetime(df_data['i_START'])
+
+    # Extract the year and month from i_START
+    df_data['Year'] = df_data['i_START'].dt.year
+    df_data['Month'] = df_data['i_START'].dt.month
+
+    # Extract the year and month from Date
+    energy_df['Year'] = energy_df['Date'].dt.year
+    energy_df['Month'] = energy_df['Date'].dt.month
+
+    df_merged = pd.merge(df_data, energy_df[['Year', 'Month', 'Motorbenzin', 'Dieselkraftstoff', 'Heizöl', 'Erdgas', 'Strom']],
+                         on=['Year', 'Month'], how='left')
+
+    columns_energy = ['Motorbenzin', 'Dieselkraftstoff', 'Heizöl', 'Erdgas', 'Strom']
+
+    for column in columns_energy:
+        df_merged[column] = df_merged[column].str.replace(',', '.')
+        df_merged[column] = pd.to_numeric(df_merged[column], errors='coerce')
+
+    # Drop the temporary Year and Month columns
+    df_merged.drop(columns=['Year', 'Month'], inplace=True)
+
+    # Display the merged DataFrame
+    return df_merged
+
+def add_covid_data(df_data):
+    covid_df = pd.read_csv('/Users/inagege/Documents/00_Uni/SeminarSocialSentimentInTimesOfCrisis/Data/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv')
+    covid_df['Date'] = pd.to_datetime(covid_df['Date'], format='%Y-%m-%d')
+    df_data['i_START'] = pd.to_datetime(df_data['i_START'])
+
+    # Extract the year and month from i_START
+    df_data['Year'] = df_data['i_START'].dt.year
+    df_data['Month'] = df_data['i_START'].dt.month
+
+    # Extract the year and month from Date
+    covid_df['Year'] = covid_df['Date'].dt.year
+    covid_df['Month'] = covid_df['Date'].dt.month
+
+    df_merged = pd.merge(df_data,
+                         covid_df[['Year', 'Month', 'Inzidenz_7-Tage']],
+                         on=['Year', 'Month'], how='left')
+
+    df_merged.drop(columns=['Year', 'Month'], inplace=True)
+
+    # Display the merged DataFrame
+    return df_merged
+
