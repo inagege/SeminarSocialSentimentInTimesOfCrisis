@@ -1,0 +1,25 @@
+Feature,Assigned Component,question
+consumer_price_index,Component 2,
+inflation_rate,Component 2,
+dax_points,Component 2,
+interest_rate,Component 2,
+F3A21_1,Component 4,Aktuell ergibt es Sinn in Aktien zu investieren.
+F5A10_2,Component 4,Die Aktienmärkte
+F5aA1_1,Component 3,"...von öffentlichen Medienanstalten  (ARD, ZDF, Arte,... )"
+F5aA2_1,Component 3,"...von privaten etablierten Medienanstalten  (RTL, SAT1, proSieben, Spiegel, Bild...)"
+F5aA3_1,Component 7,"...von alternativen Anbietern (newsblogger, social media influencer,...)"
+F5aA4_1,Component 3,"Soziale Netzwerke (z.B. X/Twitter, Facebook, Instagram)"
+F5aA5_1,Component 7,"Videoplattformen (z.B. YouTube, TikTok)"
+F5bA1_1,Component 6,Webseiten und Newsapps
+F5bA2_1,Component 5,"Soziale Medien (Facebook, Instagram, Youtube, Twitter, TikTok,...)"
+F5bA3_1,Component 7,"Messenger Dienste (Whatsapp, Telegram, Facebook Messenger, Threema)"
+F5bA4_1,Component 3,Fernsehen
+F5bA5_1,Component 6,Radio & PodCasts
+F7g,Component 5,"Was ist der höchste allgemeinbildende Schulabschluss, den Sie erreicht haben?"
+F7h,Component 5,"Was ist der höchste Studienabschluss, den Sie erreicht haben?"
+F7i,Component 5,"Was ist der höchste berufliche Ausbildungsabschluss, den Sie erreicht haben?"
+F5A10_1,Component 4,Die Presse und das Zeitungswesen
+F5A11_1,Component 4,Das öffentlich-rechtliche Fernsehen
+F5A12_1,Component 4,Private Fernsehsender
+F5A13_1,Component 4,Klassische Nachrichtenseiten im Internet (z.B. faz.net oder spiegel.de)
+F5A14_1,Component 4,"Die sozialen Medien (z.B. Twitter, Facebook, Telegram)"

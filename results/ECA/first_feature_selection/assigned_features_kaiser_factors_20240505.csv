@@ -1,0 +1,18 @@
+Feature,Assigned Component,question
+consumer_price_index,Component 2,
+inflation_rate,Component 2,
+dax_points,Component 2,
+interest_rate,Component 2,
+F3A21_1,Component 4,Aktuell ergibt es Sinn in Aktien zu investieren.
+F71invest,Component 4,"Investieren Sie momentan in den Aktienmarkt (z.B. Einzelaktien, Fonds, ETFs, Derivate)?"
+F5A10_2,Component 4,Die Aktienmärkte
+F5aA1_1,Component 3,"...von öffentlichen Medienanstalten  (ARD, ZDF, Arte,... )"
+F5aA2_1,Component 3,"...von privaten etablierten Medienanstalten  (RTL, SAT1, proSieben, Spiegel, Bild...)"
+F5aA3_1,Component 3,"...von alternativen Anbietern (newsblogger, social media influencer,...)"
+F5aA4_1,Component 4,"Soziale Netzwerke (z.B. X/Twitter, Facebook, Instagram)"
+F5aA5_1,Component 4,"Videoplattformen (z.B. YouTube, TikTok)"
+F5bA1_1,Component 4,Webseiten und Newsapps
+F5bA2_1,Component 4,"Soziale Medien (Facebook, Instagram, Youtube, Twitter, TikTok,...)"
+F5bA3_1,Component 3,"Messenger Dienste (Whatsapp, Telegram, Facebook Messenger, Threema)"
+F5bA4_1,Component 3,Fernsehen
+F5bA5_1,Component 4,Radio & PodCasts

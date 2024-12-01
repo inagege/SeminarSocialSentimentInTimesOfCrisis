@@ -1,0 +1,29 @@
+Feature,Assigned Component,question
+consumer_price_index,Component 2,
+inflation_rate,Component 2,
+dax_points,Component 2,
+interest_rate,Component 2,
+F3A21_1,Component 5,Aktuell ergibt es Sinn in Aktien zu investieren.
+F71invest,Component 5,"Investieren Sie momentan in den Aktienmarkt (z.B. Einzelaktien, Fonds, ETFs, Derivate)?"
+F5A10_2,Component 5,Die Aktienmärkte
+F5aA1_1,Component 4,"...von öffentlichen Medienanstalten  (ARD, ZDF, Arte,... )"
+F5aA2_1,Component 4,"...von privaten etablierten Medienanstalten  (RTL, SAT1, proSieben, Spiegel, Bild...)"
+F5aA3_1,Component 8,"...von alternativen Anbietern (newsblogger, social media influencer,...)"
+F5aA4_1,Component 4,"Soziale Netzwerke (z.B. X/Twitter, Facebook, Instagram)"
+F5aA5_1,Component 8,"Videoplattformen (z.B. YouTube, TikTok)"
+F5bA1_1,Component 6,Webseiten und Newsapps
+F5bA2_1,Component 6,"Soziale Medien (Facebook, Instagram, Youtube, Twitter, TikTok,...)"
+F5bA3_1,Component 8,"Messenger Dienste (Whatsapp, Telegram, Facebook Messenger, Threema)"
+F5bA4_1,Component 4,Fernsehen
+F5bA5_1,Component 6,Radio & PodCasts
+F1A13_1,Component 4,Die Energiekrise verschlechtert meine Situation.
+F1A14_1,Component 5,Mit der Energiekrise kann ich einfacher umgehen als mit den Krisen der vorherigen Jahre.
+F2A6,Component 5,Dass Deutschland tiefer in den Krieg in der Ukraine involviert wird
+F2A7,Component 5,Die Situation von ukrainischen Flüchtlingen in Deutschland.
+F2A14,Component 5,Dass Russland Atomwaffen einsetzt
+F3A13_1,Component 3,Ich unterstütze die Sanktionen gegen Russland trotz der Nachteile für Deutschland
+F3A14_1,Component 3,"Deutschland sollte die Ukraine militärisch unterstützen, so lange wie der Krieg andauert."
+F3A22_1,Component 7,"Die Ukraine sollte den Verlust von Land hinnehmen, um den Krieg zu beenden."
+F3A15_1,Component 8,Die aktuellen Corona-Maßnahmen in Deutschland gehen mir zu weit.
+F3A16_1,Component 7,In der gegenwärtigen Situation ist eine Maskenpflicht in Innenräumen notwendig.
+F3A17_1,Component 7,Coronainfizierte Personen sollten sich weiterhin für 5 Tage isolieren müssen.

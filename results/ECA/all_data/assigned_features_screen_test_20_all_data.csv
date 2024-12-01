@@ -1,0 +1,245 @@
+Feature,Assigned Component,question
+Unnamed: 0,Component 11,
+i_NUMBER,Component 11,
+i_START,Component 17,
+i_END,Component 17,
+i_TIME,Component 5,
+unique_id,Component 19,
+wave_first,Component 18,
+F1A1_1,Component 3,"Gegenwärtig bin ich, alles in allem, zufrieden in meinem Leben."
+F1A2_1,Component 20,In letzter Zeit hat sich meine Situation deutlich verschlechtert.
+F1A3_1,Component 15,Ich empfinde so etwas wie Weltuntergangsstimmung.
+F1A4_1,Component 17,"Ich fühle mich nicht in der Lage, Sorgen zu stoppen oder zu kontrollieren."
+F1A5_1,Component 3,"Ich bin in der Lage, über mein Schicksal selbst zu bestimmen."
+F1A6_1,Component 4,"Ich empfinde Nervosität, Ängstlichkeit oder Anspannung."
+F1A7_1,Component 15,"Ich empfinde Niedergeschlagenheit, Schwermut oder Hoffnungslosigkeit."
+F1A8_1,Component 16,Ich habe wenig Interesse und Freude im Alltag.
+F1A9_1,Component 18,"Ich empfinde große Wut, wenn ich über die momentane Situation nachdenke."
+F1A10_1,Component 1,Von der Politik fühle ich mich fair behandelt.
+F1A11_1,Component 1,Ich leide mehr als andere in der aktuellen Situation.
+F1A12_1,Component 9,"Mir tun andere leid, die unter der aktuellen Situation zu kämpfen haben."
+F1A13_1,Component 20,Die Energiekrise verschlechtert meine Situation.
+F1A14_1,Component 15,Mit der Energiekrise kann ich einfacher umgehen als mit den Krisen der vorherigen Jahre.
+F1A15_1,Component 18,"Ich empfinde große Wut, wenn ich darüber nachdenke, wie wir in die aktuelle Situation geraten sind."
+F1A16_1,Component 15,Ich fühle mich von unserer politischen Führung ungenügend informiert.
+F1A17_1,Component 1,"Ich glaube, dass unsere politische Führung gut mit den aktuellen Krisen umgeht."
+F1A19_1,Component 1,In Deutschland kommen wir besser durch die aktuellen Herausforderungen als andere Nationen.
+F2A1,Component 15,Dass Sie Ihre Rechnungen nicht mehr bezahlen können.
+F2A2,Component 15,Dass Sie Sich beim Einkaufen einschränken müssen.
+F2A3,Component 15,Dass Sie Ihren Arbeitsplatz verlieren (freilassen wenn Sie keiner Arbeit nachgehen)
+F2A4,Component 7,Die Situation von jungen Menschen in Deutschland
+F2A5,Component 7,Die Situation von alten Menschen in Deutschland
+F2A6,Component 10,Dass Deutschland tiefer in den Krieg in der Ukraine involviert wird
+F2A7,Component 7,Die Situation von ukrainischen Flüchtlingen in Deutschland.
+F2A8,Component 7,Die Situation von nicht ukrainischen Flüchtlingen in Deutschland.
+F2A9,Component 1,Die Lage im deutschen Gesundheitssystem
+F2A10,Component 1,Der Wohlstand unserer Gesellschaft
+F2A11,Component 16,Die Umweltsituation in meiner näheren Umgebung
+F2A12,Component 16,Der weltweite Klimawandel
+F3A1_1,Component 1,Die aktuelle Situation verstärkt den gesellschaftlichen Zusammenhalt in Deutschland.
+F3A2_1,Component 19,Deutschland zerfällt zunehmend in extreme polititsche Gruppen.
+F3A3_1,Component 1,"In Deutschland kann man, ohne Anfeindungen zu fürchten, seine Meinung  öffentlich äußern."
+F3A4_1,Component 19,In Deutschland sind politische Debatten zunehmend aufgeheizt
+F3A5_1,Component 9,In Deutschland können wir weiterhin Flüchtlinge aus der Ukraine aufnehmen.
+F3A6_1,Component 7,Für Flüchtlinge aus anderen Ländern als der Ukraine haben wir keinen Platz mehr in Deutschland.
+F3A7_1,Component 5,Ausländer verschärfen Kriminalitätsprobleme.
+F3A8_1,Component 1,Ausländer nehmen Deutschen die Arbeitsplätze weg.
+F3A9_1,Component 9,Das Sozialsystem in Deutschland kann mit den Ausländern klarkommen.
+F3A10_1,Component 20,Deutschland muss in Sachen Klimaschutz viel mehr machen.
+F3A11_1,Component 20,"Dem Umweltschutz sollte Vorrang eingeräumt werden, auch wenn dadurch das Wirtschaftswachstum sinkt und Arbeitsplätze verloren gehen."
+F3A12_1,Component 20,"Ich bin bereit, meinen Energieverbrauch für den Klimaschutz einzuschränken"
+F3A13_1,Component 10,Ich unterstütze die Sanktionen gegen Russland trotz der Nachteile für Deutschland
+F3A14_1,Component 10,"Deutschland sollte die Ukraine militärisch unterstützen, so lange wie der Krieg andauert."
+F3A15_1,Component 12,Die aktuellen Corona-Maßnahmen in Deutschland gehen mir zu weit.
+F3A16_1,Component 20,In der gegenwärtigen Situation ist eine Maskenpflicht in Innenräumen notwendig.
+F3A17_1,Component 19,Coronainfizierte Personen sollten sich weiterhin für 5 Tage isolieren müssen.
+F3A18_1,Component 9,Ich bringe meine politische Meinung bei Demonstrationen zum Ausdruck.
+F4aA1,Component 16,FFF:  €
+F4aA2,Component 20,Vernunftkraft:  €
+F4bA1,Component 12,alle Teilnehmenden der Studie_FFF
+F4bA2,Component 20,alle Teilnehmenden der Studie_Verknunftkraft
+F4bA3,Component 16,"die Teilnehmenden, die etwa gleich alt sind wie Sie (weniger als 10 Jahre jünger oder älter als Sie)_FFF"
+F4bA4,Component 20,"die Teilnehmenden, die etwa gleich alt sind wie Sie (weniger als 10 Jahre jünger oder älter als Sie)_Verknunftkraft"
+F4bA5,Component 16,"die Teilnehmenden, die den gleichen Bildungsabschluss haben wie Sie_FFF"
+F4bA6,Component 20,"die Teilnehmenden, die den gleichen Bildungsabschluss haben wie Sie_Verknunftkraft"
+F4bA7,Component 18,"die Teilnehmenden, die aus dem gleichen Bundesland kommen wie Sie_FFF"
+F4bA8,Component 20,"die Teilnehmenden, die aus dem gleichen Bundesland kommen wie Sie_Verknunftkraft"
+F4bA9,Component 18,"die Teilnehmenden, mit einem niedrigen Haushalteneinkommen (unter 1800 Euro)_FFF"
+F4bA10,Component 20,"die Teilnehmenden, mit einem niedrigen Haushalteneinkommen (unter 1800 Euro)_Verknunftkraft"
+F4bA11,Component 18,"die Teilnehmenden, mit einem mittleren Haushalteneinkommen (zwischen 1800 und 4250 Euro)_FFF"
+F4bA12,Component 20,"die Teilnehmenden, mit einem mittleren Haushalteneinkommen (zwischen 1800 und 4250 Euro)_Verknunftkraft"
+F4bA13,Component 13,"die Teilnehmenden, mit einem hohen Haushalteneinkommen (über 4250 Euro)_FFF"
+F4bA14,Component 20,"die Teilnehmenden, mit einem hohen Haushalteneinkommen (über 4250 Euro)_Verknunftkraft"
+F4bA15,Component 15,
+F4bA16,Component 18,
+F4i_neuA1,Component 20,"Bitte schätzen Sie, welcher Anteil (in Prozent %) aller Teilnehmenden das gesamte Geld (10 Euro) an Vernunftkraft und nichts (0 Euro) an Fridays For Future in dieser Woche spendet:  %"
+F4i_neuA2,Component 7,"Bitte schätzen Sie, welcher Anteil (in Prozent %) aller Teilnehmenden das gesamte Geld (10 Euro) an Fridays For Future und nichts (0 Euro) an Vernunftkraft in dieser Woche spendet.  %"
+F4i_neuA3,Component 5,"Bitte schätzen Sie, welcher Anteil (in Prozent %) aller Teilnehmenden das Geld (10 Euro) zwischen den zwei Spendenempfängern aufteilt, egal ob gleich- oder ungleichmäßig.  %"
+F5A1_1,Component 14,Die Kirchen
+F5A2_1,Component 14,Die Bundeswehr
+F5A3_1,Component 19,Die Polizei
+F5A4_1,Component 1,Das Parlament (Bundestag)
+F5A5_1,Component 1,Die Regierung
+F5A6_1,Component 19,Das Rechtssystem
+F5A7_1,Component 1,Die öffentliche Verwaltung
+F5A8_1,Component 1,Das Gesundheitssystem
+F5A9_1,Component 1,Die politischen Parteien
+F5A10_1,Component 5,Die Presse und das Zeitungswesen
+F5A11_1,Component 5,Das öffentlich-rechtliche Fernsehen
+F5A12_1,Component 5,Private Fernsehsender
+F5A13_1,Component 5,Klassische Nachrichtenseiten im Internet (z.B. faz.net oder spiegel.de)
+F5A14_1,Component 4,"Die sozialen Medien (z.B. Twitter, Facebook, Telegram)"
+F5aA1_1,Component 5,"...von öffentlichen Medienanstalten  (ARD, ZDF, Arte,... )"
+F5aA2_1,Component 5,"...von privaten etablierten Medienanstalten  (RTL, SAT1, proSieben, Spiegel, Bild...)"
+F5aA3_1,Component 4,"...von alternativen Anbietern (newsblogger, social media influencer,...)"
+F5bA1_1,Component 9,Webseiten und Newsapps
+F5bA2_1,Component 4,"Soziale Medien (Facebook, Instagram, Youtube, Twitter, TikTok,...)"
+F5bA3_1,Component 4,"Messenger Dienste (Whatsapp, Telegram, Facebook Messenger, Threema)"
+F5bA4_1,Component 5,Fernsehen
+F5bA5_1,Component 18,Radio & PodCasts
+F5bA6_1,Component 18,Printmedien
+F6a_cduA1,Component 12,CDU/CSU wie gut oder schlecht
+F6a_cduA2,Component 20,CDU/CSU wie gut oder schlecht
+F6a_spdA1,Component 12,SPD wie gut oder schlecht
+F6a_spdA2,Component 15,SPD wie gut oder schlecht
+F6a_fdpA1,Component 12,FDP wie gut oder schlecht
+F6a_fdpA2,Component 20,FDP wie gut oder schlecht
+F6a_gruenenA1,Component 16,BÜNDNIS 90 / Die Grünen wie gut oder schlecht
+F6a_gruenenA2,Component 20,BÜNDNIS 90 / Die Grünen wie gut oder schlecht
+F6a_linkeA1,Component 20,Die Linke wie gut oder schlecht
+F6a_linkeA2,Component 15,Die Linke wie gut oder schlecht
+F6a_afdA1,Component 19,AFD wie gut oder schlecht
+F6a_afdA2,Component 15,AFD wie gut oder schlecht
+F6b_cduA1,Component 17,CDU rechts links
+F6b_cduA2,Component 20,CDU rechts links
+F6b_spdA1,Component 16,SPD rechts links
+F6b_spdA2,Component 20,SPD rechts links
+F6b_fdpA1,Component 17,FDP rechts links
+F6b_fdpA2,Component 20,FDP rechts links
+F6b_gruenenA1,Component 16,Gruene rechts links
+F6b_gruenenA2,Component 15,Gruene rechts links
+F6b_linkeA1,Component 19,Linke rechts links
+F6b_linkeA2,Component 15,Linke rechts links
+F6b_afdA1,Component 17,AFD rechts links
+F6b_afdA2,Component 10,AFD rechts links
+F6mA1_1,Component 9,Wo würden Sie Ihre eigene politische Position einordnen?
+F7a,Component 10,Welches Geschlecht haben Sie?
+F7bA1,Component 6,Bitte geben Sie Ihre Postleitzahl an
+F7cA1,Component 15,Wie alt sind Sie?
+F7d,Component 8,Wurden Sie in Deutschland geboren?
+F7e,Component 8,Wurde Ihre Mutter in Deutschland geboren?
+F7f,Component 8,Wurde Ihr Vater in Deutschland geboren?
+einkommen,Component 5,"Hier ist eine Liste mit Klassen des monatlichen Haushaltseinkommens. Bitte geben Sie an, in welcher Klasse sich Ihr Haushalt befindet, wenn Sie das monatliche Nettoeinkommen aller Haushaltsmitglieder zusammenzählen: Löhne, Renten und andere Einkommen nach allen Abzügen für Steuern und Sozialversicherungen."
+F7g,Component 13,"Was ist der höchste allgemeinbildende Schulabschluss, den Sie erreicht haben?"
+F7h,Component 13,"Was ist der höchste Studienabschluss, den Sie erreicht haben?"
+F7i,Component 13,"Was ist der höchste berufliche Ausbildungsabschluss, den Sie erreicht haben?"
+F7j,Component 18,"Sind Sie zurzeit berufstätig oder nicht? Bitte wählen Sie von dieser Liste das aus, was auf Sie zutrifft."
+F7k,Component 18,Welchen Familienstand haben Sie?
+F7lA1,Component 19,"Wie viele Personen leben in Ihrem Haushalt, Sie selbst eingeschlossen?"
+F7mA1,Component 19,Wie viele Kinder leben in Ihrem Haushalt?
+F7n,Component 14,Welcher Religionsgemeinschaft gehören Sie an?
+F7o,Component 18,Welcher dieser Berufsgruppen ordnen Sie sich primär zu?
+year_of_birth,Component 5,
+age,Component 17,
+postal_code,Component 6,
+wave,Component 11,
+F3A19_1,Component 10,Die Politik soll den Ausbau erneuerbarer Energien mit höchster Priorität verfolgen.
+F3A20_1,Component 20,Aus finanziellen Gründen schränke ich meinen Energieverbrauch ein.
+F3A21_1,Component 15,Aktuell ergibt es Sinn in Aktien zu investieren.
+F5A10_2,Component 15,Die Aktienmärkte
+F4iA1,Component 12,Wie viel Prozent aller Teilnehmenden spenden die gesamten 10 Euro an FFF? %
+F4iA2,Component 20,Wie viel Prozent aller Teilnehmenden spenden die gesamten 10 Euro an Vernunftkraft? %
+F4i_aA1,Component 20,"Bitte schätzen Sie, welcher Anteil (in Prozent %) aller Teilnehmenden das gesamte Geld (10 Euro) an Vernunftkraft und nichts (0 Euro) an Fridays For Future in dieser Woche spendet"
+F4i_bA1,Component 9,"Bitte schätzen Sie, welcher Anteil (in Prozent %) aller Teilnehmenden das gesamte Geld (10 Euro) an Fridays For Future und nichts (0 Euro) an Vernunftkraft in dieser Woche spendet?"
+F2A14,Component 10,Dass Russland Atomwaffen einsetzt
+F3A22_1,Component 20,"Die Ukraine sollte den Verlust von Land hinnehmen, um den Krieg zu beenden."
+F3_USA,Component 10,USA Rolle Ukraine
+F3_CHINA,Component 1,China Rolle Ukraine
+F3_Deutschland,Component 10,Deutschland Rolle Ukraine
+F3_Russland,Component 1,Russland Rolle Ukraine
+F3_Ukraine,Component 10,Ukraine Rolle Ukraine
+F3_EU,Component 10,EU Rolle Ukraine
+F3_NATO,Component 10,NATO Rolle Ukraine
+unique_ids,Component 20,
+Cleaning,Component 2,
+kitA3,Component 10,
+kitA4,Component 6,
+kitA5,Component 17,
+kitA6,Component 2,
+race,Component 8,Wie identifizieren Sie sich im Hinblick auf Ihre Ethnische und/oder Racial Identität?
+F3A23_1,Component 1,Die Hamas wird von der Mehrheit der Palästinenser in Gaza unterstützt.
+F3A24_1,Component 19,Israel ist ein legitimer Staat.
+F3A25_1,Component 1,"Bei der israelischen Politik kann ich gut verstehen, dass man etwas gegen Juden hat."
+F3A26_1,Component 1,Der Antisemitismus in Deutschland stellt für Juden eine Bedrohung dar.
+F3A27_1,Component 19,In der Berichterstattung in deutschen Medien dominiert die israelische Perspektive.
+F3A28_1,Component 12,Die Hamas ist eine Terrororganisation.
+F3A29_1,Component 19,In der aktuellen öffentlichen Debatte um den Nahostkonflikt werden Argumente stark überspitzt und vereinfacht dargestellt.
+F3A30_1,Component 12,Im nationalen Interesse ist unter bestimmten Umständen eine Diktatur die bessere Staatsform.
+F3A31_1,Component 20,Wir sollten endlich wieder Mut zu einem starken Nationalgefühl haben.
+F3A32_1,Component 20,Die Ausübung des islamischen Glaubens in Deutschland sollte eingeschränkt werden.
+F3A33_1,Component 20,Muslime passen nicht in die deutsche Gesellschaft.
+F3A34_1,Component 20,Juden passen nicht in die deutsche Gesellschaft.
+F3A35_1,Component 1,In Deutschland gilt eine israelkritische Haltung als gesellschaftlich inakzeptabel.
+F3A36_1,Component 1,
+F3B1,Component 9,
+F3B2,Component 9,
+F3B3,Component 9,
+F5cA1_1,Component 20,Künstliche Intelligenz hat einen negativen Einfluss auf die Inhalte auf den sozialen Medien.
+F5cA2_1,Component 20,"Die Bundesrepublik Deutschland wird von einer fremden Macht beherrscht, die im Hintergrund die Fäden zieht."
+F6a_bswA1,Component 19,
+F6a_bswA2,Component 10,
+F6b_bswA1,Component 19,
+F6b_bswA2,Component 10,
+F6c,Component 19,
+respondent_id,Component 14,
+F3B_Hamas,Component 17,Hamas
+F3B_Israel,Component 10,Israel
+F3B_Deutschland,Component 10,Deutschland
+F3B_USA,Component 10,USA
+F3B_UN,Component 19,Vereinte Nationen
+F3B_Iran,Component 17,Iran
+F3B_Katar,Component 11,Katar
+F5A14_2,Component 17,"Soziale Netzwerke (z.B. X/Twitter, Facebook, Instagram)"
+F5A14_3,Component 17,"Videoplattformen (z.B. YouTube, TikTok)"
+F5A15_1,Component 4,"Einzelpersonen und Gruppierungen, denen ich digital folge"
+F5aA4_1,Component 4,"Soziale Netzwerke (z.B. X/Twitter, Facebook, Instagram)"
+F5aA5_1,Component 20,"Videoplattformen (z.B. YouTube, TikTok)"
+F5bA2_2,Component 4,
+F7p,Component 19,Welche Partei haben Sie bei der letzten Bundestagswahl gewählt
+F5A6_2,Component 19,Das Bundesverfassungsgericht
+F5A9_2,Component 19,Die Organe der Europäischen Union
+F6d,Component 19,"Welche Partei würden Sie wählen, wenn am kommenden Sonntag Bundestagswahl wäre?"
+NEU1,Component 19,Mit welchem der folgenden Energieträger werden Ihre Wohnräume beheizt?
+NEU2,Component 18,In was für einem Wohnverhältnis leben Sie derzeit?
+F1A5_2,Component 9,"Ich habe das Gefühl, ich kann in unserer Gesellschaft etwas verändern, indem ich mich engagiere."
+F1A10_2,Component 20,Als Einzelner kann man sowieso nichts an der Lage des eigenen Landes ändern.
+F1A16_2,Component 20," Unter Umständen werden aktuelle Krisen bewusst herbeigeführt, um die Interessen von Eliten zu verwirklichen. "
+F1A17_2,Component 20,"Ich habe das Gefühl, dass die politische Führung meine Lage absichtlich nicht verbessert."
+F5cA3_1,Component 20,
+F5dA1_1,Component 9,
+F5dA2_1,Component 9,
+F5dA3_1,Component 9,
+F5eA1_1,Component 20,
+F5eA2_1,Component 19,
+F5eA3_1,Component 20,
+F5eA4_1,Component 20,
+F5fA1_1,Component 20,
+F5fA2_1,Component 20,
+F5fA3_1,Component 19,
+F71invest,Component 15,"Investieren Sie momentan in den Aktienmarkt (z.B. Einzelaktien, Fonds, ETFs, Derivate)?"
+F71moral,Component 18,Aus moralischen Gründen beziehe ich Nachhaltigkeit (bezüglich der Umwelt oder sozialen Aspekten) in meine Entscheidungen bei der Geldanlage mit ein.
+F71finanziell,Component 18,Aus finanziellen Gründen beziehe ich Nachhaltigkeit (bezüglich der Umwelt oder sozialen Aspekten) in meine Entscheidungen bei der Geldanlage mit ein.
+NEU3,Component 18,Ich beziehe Ökostrom aus (der) folgenden Quelle(n):
+NEU4,Component 5,Folgende Kosten sind in meinen Mietnebenkosten inbegriffen:
+F3B_Huthi,Component 17,
+state,Component 7,
+region,Component 6,
+migration_background,Component 8,
+town_name,Component 6,
+population_total,Component 18,
+population_density_level,Component 18,
+all_persons,Component 10,
+dax_points,Component 15,
+interest_rate,Component 11,
+inflation_rate,Component 2,
+consumer_price_index,Component 2,
