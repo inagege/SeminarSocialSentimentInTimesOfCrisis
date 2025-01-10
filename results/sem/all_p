@@ -1,8 +1,8 @@
 lval,op,rval,p-value
-Investment_Behavior,~,Information_Awareness,0.001513572493538895
-Investment_Behavior,~,Energy_Crisis_Sentiment,0.0005188481782594234
-Investment_Behavior,~,Ukraine_Sentiment,1.8713785312041153e-05
-Investment_Behavior,~,Corona_Sentiment,0.0012295528915482468
+Investment_Opinion,~,Information_Awareness,0.0015013803885364219
+Investment_Opinion,~,Energy_Crisis_Sentiment,0.0005165512386307025
+Investment_Opinion,~,Ukraine_Sentiment,1.8634717500409792e-05
+Investment_Opinion,~,Corona_Sentiment,0.0012228773826217232
 Economical_Indices,~,Energy_Crisis_Sentiment,0.0
 Economical_Indices,~,Ukraine_Sentiment,0.0
 Economical_Indices,~,Corona_Sentiment,0.0
@@ -19,8 +19,8 @@ F5A11_1,~,Information_Awareness,0.0
 F5A12_1,~,Information_Awareness,0.0
 F5A13_1,~,Information_Awareness,0.0
 F5A14_1,~,Information_Awareness,0.0
-F3A21_1,~,Investment_Behavior,-
-F5A10_2,~,Investment_Behavior,0.0
+F3A21_1,~,Investment_Opinion,-
+F5A10_2,~,Investment_Opinion,0.0
 F1A13_1,~,Energy_Crisis_Sentiment,-
 F1A14_1,~,Energy_Crisis_Sentiment,0.0
 inflation_rate,~,Economical_Indices,-

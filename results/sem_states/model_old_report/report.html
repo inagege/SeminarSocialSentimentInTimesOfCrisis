@@ -66,7 +66,7 @@ nav .nav-link.active {
     # Latent Variables:
     Information_Awareness =~ F5aA1_1 + F5aA2_1 + F5aA3_1 + F5bA1_1 + F5bA2_1 + F5bA3_1 + F5bA4_1 + F5bA5_1 + F5A10_1 + F5A11_1 + F5A12_1 + F5A13_1 + F5A14_1
 
-    Investment_Behavior =~ F3A21_1 + F5A10_2
+    Investment_Opinion =~ F3A21_1 + F5A10_2
     
     Energy_Crisis_Sentiment =~ F1A13_1 + F1A14_1
     
@@ -77,7 +77,7 @@ nav .nav-link.active {
     Corona_Sentiment =~ F3A16_1 + F3A17_1
         
     # Regression:
-    Investment_Behavior ~ Information_Awareness + Energy_Crisis_Sentiment + Ukraine_Sentiment + Corona_Sentiment
+    Investment_Opinion ~ Information_Awareness + Energy_Crisis_Sentiment + Ukraine_Sentiment + Corona_Sentiment
     Economical_Indices ~ Energy_Crisis_Sentiment + Ukraine_Sentiment + Corona_Sentiment
    
     # Correlations:
@@ -109,7 +109,7 @@ nav .nav-link.active {
 	    </h2>
 	    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion1">
 	      <div class="accordion-body">
-		<div class="row"><div class="col-sm-2">all</div><div class="col-sm-6">F5A10_1, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA2_1, dax_points, F5A14_1, F5A11_1, F5aA2_1, Economical_Indices, F1A14_1, Ukraine_Sentiment, Investment_Behavior, F5bA4_1, F5bA1_1, Corona_Sentiment, F3A16_1, interest_rate, F5A10_2, F5bA5_1, Energy_Crisis_Sentiment, F5A13_1, F3A17_1, F2A14, F1A13_1, Information_Awareness, MSCI_world, F3A21_1, F2A6</div></div><div class="row"><div class="col-sm-2">endogenous</div><div class="col-sm-6">F5A10_1, F3A16_1, interest_rate, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA4_1, F5bA2_1, F5A10_2, F5bA5_1, dax_points, F5A13_1, F5A14_1, F5A11_1, F5aA2_1, F3A17_1, F2A14, F1A13_1, Economical_Indices, MSCI_world, F3A21_1, F1A14_1, F2A6, Investment_Behavior, F5bA1_1</div></div><div class="row"><div class="col-sm-2">exogenous</div><div class="col-sm-6">Corona_Sentiment, Ukraine_Sentiment, Energy_Crisis_Sentiment, Information_Awareness</div></div><div class="row"><div class="col-sm-2">observed</div><div class="col-sm-6">F1A13_1, F1A14_1, F2A14, F2A6, F3A16_1, F3A17_1, F3A21_1, F5A10_1, F5A10_2, F5A11_1, F5A12_1, F5A13_1, F5A14_1, F5aA1_1, F5aA2_1, F5aA3_1, F5bA1_1, F5bA2_1, F5bA3_1, F5bA4_1, F5bA5_1, MSCI_world, dax_points, inflation_rate, interest_rate</div></div><div class="row"><div class="col-sm-2">latent</div><div class="col-sm-6">Corona_Sentiment, Information_Awareness, Economical_Indices, Energy_Crisis_Sentiment, Ukraine_Sentiment, Investment_Behavior</div></div><div class="row"><div class="col-sm-2">indicator</div><div class="col-sm-6">F3A16_1, F5A10_1, interest_rate, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA2_1, F5A10_2, F5bA5_1, dax_points, F5A13_1, F5A14_1, F5A11_1, F5aA2_1, F3A17_1, F2A14, F1A13_1, MSCI_world, F3A21_1, F1A14_1, F2A6, F5bA4_1, F5bA1_1</div></div><div class="row"><div class="col-sm-2">output</div><div class="col-sm-6"></div></div><div class="row"><div class="col-sm-2">_output</div><div class="col-sm-6">F5A10_1, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA2_1, dax_points, F5A11_1, F5A14_1, F5aA2_1, F1A14_1, F5bA4_1, F5bA1_1, F3A16_1, interest_rate, F5A10_2, F5bA5_1, F5A13_1, F3A17_1, F2A14, F1A13_1, MSCI_world, F3A21_1, F2A6</div></div><div class="row"><div class="col-sm-2">inner</div><div class="col-sm-6">Corona_Sentiment, Economical_Indices, Energy_Crisis_Sentiment, Information_Awareness, Investment_Behavior, Ukraine_Sentiment</div></div>
+		<div class="row"><div class="col-sm-2">all</div><div class="col-sm-6">F2A6, F5bA2_1, F5A14_1, dax_points, F5aA2_1, F5A12_1, interest_rate, F1A13_1, F5bA1_1, F5aA3_1, Corona_Sentiment, MSCI_world, F3A16_1, F1A14_1, Economical_Indices, F5bA5_1, F3A17_1, F5bA3_1, Investment_Opinion, inflation_rate, Ukraine_Sentiment, F5A11_1, F5A10_1, F2A14, F5bA4_1, F5aA1_1, F5A13_1, Energy_Crisis_Sentiment, Information_Awareness, F3A21_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">endogenous</div><div class="col-sm-6">F2A6, F5bA2_1, F5bA3_1, dax_points, Investment_Opinion, inflation_rate, F5aA2_1, F5A12_1, interest_rate, F5A11_1, F1A13_1, F5A10_1, F2A14, F5bA1_1, F5bA4_1, F5aA1_1, F5A13_1, F5aA3_1, MSCI_world, F3A16_1, F1A14_1, F5A14_1, Economical_Indices, F5bA5_1, F3A21_1, F3A17_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">exogenous</div><div class="col-sm-6">Energy_Crisis_Sentiment, Information_Awareness, Ukraine_Sentiment, Corona_Sentiment</div></div><div class="row"><div class="col-sm-2">observed</div><div class="col-sm-6">F1A13_1, F1A14_1, F2A14, F2A6, F3A16_1, F3A17_1, F3A21_1, F5A10_1, F5A10_2, F5A11_1, F5A12_1, F5A13_1, F5A14_1, F5aA1_1, F5aA2_1, F5aA3_1, F5bA1_1, F5bA2_1, F5bA3_1, F5bA4_1, F5bA5_1, MSCI_world, dax_points, inflation_rate, interest_rate</div></div><div class="row"><div class="col-sm-2">latent</div><div class="col-sm-6">Investment_Opinion, Corona_Sentiment, Ukraine_Sentiment, Energy_Crisis_Sentiment, Economical_Indices, Information_Awareness</div></div><div class="row"><div class="col-sm-2">indicator</div><div class="col-sm-6">F2A6, F5bA2_1, F5bA3_1, dax_points, inflation_rate, F5aA2_1, F5A12_1, F5A11_1, interest_rate, F1A13_1, F5A10_1, F2A14, F5bA1_1, F5bA4_1, F5aA1_1, F5A13_1, F5aA3_1, MSCI_world, F3A16_1, F1A14_1, F5A14_1, F5bA5_1, F3A21_1, F3A17_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">output</div><div class="col-sm-6"></div></div><div class="row"><div class="col-sm-2">_output</div><div class="col-sm-6">F2A6, F5bA2_1, dax_points, F5aA2_1, F5A12_1, interest_rate, F1A13_1, F5bA1_1, F5aA3_1, MSCI_world, F3A16_1, F1A14_1, F5bA5_1, F3A17_1, F5bA3_1, inflation_rate, F5A11_1, F5A10_1, F2A14, F5bA4_1, F5aA1_1, F5A13_1, F5A14_1, F3A21_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">inner</div><div class="col-sm-6">Corona_Sentiment, Economical_Indices, Energy_Crisis_Sentiment, Information_Awareness, Investment_Opinion, Ukraine_Sentiment</div></div>
 	      </div>
 	    </div>
 	  </div>
@@ -139,7 +139,7 @@ nav .nav-link.active {
 	<a class="anchor" id="estimates"></a>
 	<h3>Estimates</h3>
 	<div style="font-family:monospace">
-	<div class="row"><div class='col-sm-2'></div><div class='col-sm-2'></div><div class='col-sm-1'>Estimate</div><div class='col-sm-1'>P-value</div></div><div class='col-sm-2'>Measurement:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>1.006</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.177</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.800</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.237</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.335</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>0.938</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.784</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>1.212</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>1.096</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>1.156</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>1.247</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.373</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Investment_Behavior =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>1.607</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Energy_Crisis_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.838</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.687</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>1.041</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>1.081</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>1.370</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Corona_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>1.613</div><div class='col-sm-1'>0.000</div></div><div class='col-sm-2'>Regressions:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Investment_Behavior ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.296</div><div class='col-sm-1'>0.319</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-1.386</div><div class='col-sm-1'>0.074</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>-0.535</div><div class='col-sm-1'>0.039</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>-1.023</div><div class='col-sm-1'>0.083</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.573</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.447</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>1.076</div><div class='col-sm-1'>0.000</div></div><div class='col-sm-2'>Variances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.031</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Economical_Indices</div><div class='col-sm-1'>0.381</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.113</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.257</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Investment_Behavior</div><div class='col-sm-1'>0.117</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.438</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>0.572</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.536</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>0.500</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>0.749</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>0.774</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.843</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.971</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.692</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.623</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.601</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>0.920</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>0.887</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.921</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>0.562</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>0.178</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.969</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>0.352</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>0.657</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.964</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.743</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>0.740</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.992</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.836</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.842</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.798</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2'>Covariances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'>Corona_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.009</div><div class='col-sm-1'>0.023</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.053</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>-0.032</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-0.075</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-0.182</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.042</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>inflation_rate ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.278</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.527</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>dax_points ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.041</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>MSCI_world ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.453</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.208</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>0.381</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>F3A21_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>0.166</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA4_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.395</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA2_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.346</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA3_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.419</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A11_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.419</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A10_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.299</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.296</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F3A17_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.383</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F1A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.402</div><div class='col-sm-1'>0.000</div></div>
+	<div class="row"><div class='col-sm-2'></div><div class='col-sm-2'></div><div class='col-sm-1'>Estimate</div><div class='col-sm-1'>P-value</div></div><div class='col-sm-2'>Measurement:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>1.006</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.177</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.800</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.237</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.335</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>0.938</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.784</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>1.212</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>1.096</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>1.156</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>1.247</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.373</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Investment_Opinion =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>1.607</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Energy_Crisis_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.838</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.687</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>1.041</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>1.081</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>1.370</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Corona_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>1.613</div><div class='col-sm-1'>0.000</div></div><div class='col-sm-2'>Regressions:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Investment_Opinion ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.296</div><div class='col-sm-1'>0.319</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-1.386</div><div class='col-sm-1'>0.075</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>-0.535</div><div class='col-sm-1'>0.039</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>-1.023</div><div class='col-sm-1'>0.083</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.573</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.447</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>1.076</div><div class='col-sm-1'>0.000</div></div><div class='col-sm-2'>Variances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.031</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Economical_Indices</div><div class='col-sm-1'>0.381</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.113</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.257</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Investment_Opinion</div><div class='col-sm-1'>0.117</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.438</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>0.572</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.536</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>0.500</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>0.749</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>0.774</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.843</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.971</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.692</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.623</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.601</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>0.920</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>0.887</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.921</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>0.562</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>0.178</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.969</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>0.352</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>0.657</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.964</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.743</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>0.740</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.992</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.836</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.842</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.798</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2'>Covariances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'>Energy_Crisis_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.009</div><div class='col-sm-1'>0.023</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>-0.075</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>-0.182</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.053</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.042</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>-0.032</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>inflation_rate ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.278</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.527</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>dax_points ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.041</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>MSCI_world ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.453</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.208</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>0.381</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F3A21_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>0.166</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA4_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.395</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA2_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.346</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA3_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.419</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A11_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.419</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A10_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.299</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.296</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F3A17_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.383</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F1A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.402</div><div class='col-sm-1'>0.000</div></div>
 	</div>
 	<br>
 	<div class="accordion" id="accordion3">
@@ -151,31 +151,31 @@ nav .nav-link.active {
 	    </h2>	
 	    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion3">
 	      <div class="accordion-body" style="background-color: #f6f8fa;max-width: 100%;width: 100%">
-		<pre style="font-family: monospace">                   lval  op                     rval  Estimate    Std. Err  \
-0   Investment_Behavior   ~    Information_Awareness  0.296403    0.297408   
-1   Investment_Behavior   ~  Energy_Crisis_Sentiment -1.385547    0.776842   
-2   Investment_Behavior   ~        Ukraine_Sentiment -0.534650    0.258608   
-3   Investment_Behavior   ~         Corona_Sentiment -1.022713    0.590312   
-4    Economical_Indices   ~  Energy_Crisis_Sentiment  0.573383    0.075747   
-..                  ...  ..                      ...       ...         ...   
-79              F5aA2_1  ~~                  F5aA2_1  0.740173    0.008256   
-80              F5aA3_1  ~~                  F5aA3_1  0.992050    0.009687   
-81              F5bA1_1  ~~                  F5bA1_1  0.835761    0.008755   
-82              F5bA5_1  ~~                  F5bA5_1  0.842373    0.008792   
-83        interest_rate  ~~            interest_rate  0.798396  35030.4655   
+		<pre style="font-family: monospace">                  lval  op                     rval  Estimate  Std. Err  \
+0   Investment_Opinion   ~    Information_Awareness  0.296395  0.297487   
+1   Investment_Opinion   ~  Energy_Crisis_Sentiment -1.385581  0.777017   
+2   Investment_Opinion   ~        Ukraine_Sentiment -0.534672  0.258661   
+3   Investment_Opinion   ~         Corona_Sentiment -1.022728   0.59049   
+4   Economical_Indices   ~  Energy_Crisis_Sentiment  0.573383  0.075748   
+..                 ...  ..                      ...       ...       ...   
+79             F5aA2_1  ~~                  F5aA2_1  0.740173  0.008256   
+80             F5aA3_1  ~~                  F5aA3_1  0.992050  0.009687   
+81             F5bA1_1  ~~                  F5bA1_1  0.835762  0.008755   
+82             F5bA5_1  ~~                  F5bA5_1  0.842372  0.008792   
+83       interest_rate  ~~            interest_rate  0.798390  0.022744   
 
        z-value   p-value  
-0     0.996619  0.318949  
-1    -1.783563  0.074495  
-2    -2.067417  0.038695  
-3    -1.732496  0.083185  
-4     7.569723       0.0  
+0     0.996328  0.319091  
+1    -1.783205  0.074553  
+2    -2.067075  0.038727  
+3    -1.731998  0.083274  
+4     7.569595       0.0  
 ..         ...       ...  
-79    89.65516       0.0  
-80  102.408443       0.0  
-81   95.456703       0.0  
-82   95.810671       0.0  
-83    0.000023  0.999982  
+79   89.655157       0.0  
+80  102.408448       0.0  
+81   95.456722       0.0  
+82   95.810657       0.0  
+83   35.103917       0.0  
 
 [84 rows x 7 columns]</pre>
 	      </div>
@@ -198,7 +198,7 @@ Optimization successful.
 Optimization terminated successfully
 Objective value: 1.936
 Number of iterations: 103
-Params: 1.006 0.177 0.800 0.237 0.335 0.938 0.784 1.212 1.096 1.156 1.247 0.373 1.607 0.838 0.687 1.041 1.081 1.370 1.613 0.296 -1.386 -0.535 -1.023 0.573 0.447 1.076 0.278 0.527 0.572 0.041 0.536 0.453 0.208 0.381 0.500 0.166 0.749 0.395 0.774 0.346 0.843 0.419 0.971 0.419 0.692 0.299 0.623 0.296 0.601 0.383 0.920 0.402 0.887 0.031 0.009 0.053 -0.032 0.381 0.113 0.921 0.562 0.178 0.969 0.352 0.657 0.964 0.743 0.740 0.992 0.836 0.842 0.257 -0.075 0.117 0.438 -0.182 0.042 0.798</pre>
+Params: 1.006 0.177 0.800 0.237 0.335 0.938 0.784 1.212 1.096 1.156 1.247 0.373 1.607 0.838 0.687 1.041 1.081 1.370 1.613 0.296 -1.386 -0.535 -1.023 0.573 0.447 1.076 0.278 0.527 0.572 0.041 0.536 0.453 0.208 0.381 0.500 0.166 0.749 0.395 0.774 0.346 0.843 0.419 0.971 0.419 0.692 0.299 0.623 0.296 0.601 0.383 0.920 0.402 0.887 0.031 0.381 0.113 0.009 -0.075 -0.182 0.921 0.562 0.178 0.969 0.352 0.657 0.964 0.743 0.740 0.992 0.836 0.842 0.257 0.053 0.042 0.117 0.438 -0.032 0.798</pre>
 	      </div>
 	    </div>
 	  </div>
@@ -1710,7 +1710,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -1752,7 +1752,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>-1.02</td>
       <td>0.00</td>
       <td>-1.39</td>
@@ -1778,7 +1778,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -1820,7 +1820,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -1846,7 +1846,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -1888,7 +1888,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>_b29</td>
       <td>0.00</td>
       <td>_b27</td>
@@ -1923,7 +1923,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2162,7 +2162,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2401,7 +2401,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2649,7 +2649,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2691,7 +2691,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <td>0.04</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2717,7 +2717,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2759,7 +2759,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2785,7 +2785,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2794,15 +2794,15 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Corona_Sentiment</th>
       <td>_c28</td>
       <td>0.00</td>
-      <td>_c29</td>
-      <td>_c30</td>
-      <td>0.00</td>
       <td>_c31</td>
+      <td>_c47</td>
+      <td>0.00</td>
+      <td>_c51</td>
     </tr>
     <tr>
       <th>Economical_Indices</th>
       <td>0.00</td>
-      <td>_c32</td>
+      <td>_c29</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2810,39 +2810,39 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
     </tr>
     <tr>
       <th>Energy_Crisis_Sentiment</th>
-      <td>_c29</td>
+      <td>_c31</td>
+      <td>0.00</td>
+      <td>_c30</td>
+      <td>_c32</td>
       <td>0.00</td>
       <td>_c33</td>
-      <td>_c47</td>
-      <td>0.00</td>
-      <td>_c50</td>
     </tr>
     <tr>
       <th>Information_Awareness</th>
-      <td>_c30</td>
-      <td>0.00</td>
       <td>_c47</td>
+      <td>0.00</td>
+      <td>_c32</td>
       <td>_c46</td>
       <td>0.00</td>
-      <td>_c51</td>
+      <td>_c48</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>_c48</td>
+      <td>_c49</td>
       <td>0.00</td>
     </tr>
     <tr>
       <th>Ukraine_Sentiment</th>
-      <td>_c31</td>
-      <td>0.00</td>
-      <td>_c50</td>
       <td>_c51</td>
       <td>0.00</td>
-      <td>_c49</td>
+      <td>_c33</td>
+      <td>_c48</td>
+      <td>0.00</td>
+      <td>_c50</td>
     </tr>
   </tbody>
 </table></div></div></div><div class="tab-pane fade " id="mxTheta" role="tabpanel" aria-labelledby="mxTheta-tab"><ul class="nav nav-tabs" id="Thetasub" role="tablist"><li class="nav-item" role="presentation">

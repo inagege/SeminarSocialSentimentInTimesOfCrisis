@@ -66,7 +66,7 @@ nav .nav-link.active {
     # Latent Variables:
     Information_Awareness =~ F5aA1_1 + F5aA2_1 + F5aA3_1 + F5bA1_1 + F5bA2_1 + F5bA3_1 + F5bA4_1 + F5bA5_1 + F5A10_1 + F5A11_1 + F5A12_1 + F5A13_1 + F5A14_1
 
-    Investment_Behavior =~ F3A21_1 + F5A10_2
+    Investment_Opinion =~ F3A21_1 + F5A10_2
     
     Energy_Crisis_Sentiment =~ F1A13_1 + F1A14_1
     
@@ -77,7 +77,7 @@ nav .nav-link.active {
     Corona_Sentiment =~ F3A16_1 + F3A17_1
         
     # Regression:
-    Investment_Behavior ~ Information_Awareness + Energy_Crisis_Sentiment + Ukraine_Sentiment + Corona_Sentiment
+    Investment_Opinion ~ Information_Awareness + Energy_Crisis_Sentiment + Ukraine_Sentiment + Corona_Sentiment
     Economical_Indices ~ Energy_Crisis_Sentiment + Ukraine_Sentiment + Corona_Sentiment
    
     # Correlations:
@@ -109,7 +109,7 @@ nav .nav-link.active {
 	    </h2>
 	    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion1">
 	      <div class="accordion-body">
-		<div class="row"><div class="col-sm-2">all</div><div class="col-sm-6">F5A10_1, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA2_1, dax_points, F5A14_1, F5A11_1, F5aA2_1, Economical_Indices, F1A14_1, Ukraine_Sentiment, Investment_Behavior, F5bA4_1, F5bA1_1, Corona_Sentiment, F3A16_1, interest_rate, F5A10_2, F5bA5_1, Energy_Crisis_Sentiment, F5A13_1, F3A17_1, F2A14, F1A13_1, Information_Awareness, MSCI_world, F3A21_1, F2A6</div></div><div class="row"><div class="col-sm-2">endogenous</div><div class="col-sm-6">F5A10_1, F3A16_1, interest_rate, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA4_1, F5bA2_1, F5A10_2, F5bA5_1, dax_points, F5A13_1, F5A14_1, F5A11_1, F5aA2_1, F3A17_1, F2A14, F1A13_1, Economical_Indices, MSCI_world, F3A21_1, F1A14_1, F2A6, Investment_Behavior, F5bA1_1</div></div><div class="row"><div class="col-sm-2">exogenous</div><div class="col-sm-6">Corona_Sentiment, Ukraine_Sentiment, Energy_Crisis_Sentiment, Information_Awareness</div></div><div class="row"><div class="col-sm-2">observed</div><div class="col-sm-6">F1A13_1, F1A14_1, F2A14, F2A6, F3A16_1, F3A17_1, F3A21_1, F5A10_1, F5A10_2, F5A11_1, F5A12_1, F5A13_1, F5A14_1, F5aA1_1, F5aA2_1, F5aA3_1, F5bA1_1, F5bA2_1, F5bA3_1, F5bA4_1, F5bA5_1, MSCI_world, dax_points, inflation_rate, interest_rate</div></div><div class="row"><div class="col-sm-2">latent</div><div class="col-sm-6">Corona_Sentiment, Information_Awareness, Economical_Indices, Energy_Crisis_Sentiment, Ukraine_Sentiment, Investment_Behavior</div></div><div class="row"><div class="col-sm-2">indicator</div><div class="col-sm-6">F3A16_1, F5A10_1, interest_rate, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA2_1, F5A10_2, F5bA5_1, dax_points, F5A13_1, F5A14_1, F5A11_1, F5aA2_1, F3A17_1, F2A14, F1A13_1, MSCI_world, F3A21_1, F1A14_1, F2A6, F5bA4_1, F5bA1_1</div></div><div class="row"><div class="col-sm-2">output</div><div class="col-sm-6"></div></div><div class="row"><div class="col-sm-2">_output</div><div class="col-sm-6">F5A10_1, F5aA3_1, F5aA1_1, F5bA3_1, F5A12_1, inflation_rate, F5bA2_1, dax_points, F5A11_1, F5A14_1, F5aA2_1, F1A14_1, F5bA4_1, F5bA1_1, F3A16_1, interest_rate, F5A10_2, F5bA5_1, F5A13_1, F3A17_1, F2A14, F1A13_1, MSCI_world, F3A21_1, F2A6</div></div><div class="row"><div class="col-sm-2">inner</div><div class="col-sm-6">Corona_Sentiment, Economical_Indices, Energy_Crisis_Sentiment, Information_Awareness, Investment_Behavior, Ukraine_Sentiment</div></div>
+		<div class="row"><div class="col-sm-2">all</div><div class="col-sm-6">F2A6, F5bA2_1, F5A14_1, dax_points, F5aA2_1, F5A12_1, interest_rate, F1A13_1, F5bA1_1, F5aA3_1, Corona_Sentiment, MSCI_world, F3A16_1, F1A14_1, Economical_Indices, F5bA5_1, F3A17_1, F5bA3_1, Investment_Opinion, inflation_rate, Ukraine_Sentiment, F5A11_1, F5A10_1, F2A14, F5bA4_1, F5aA1_1, F5A13_1, Energy_Crisis_Sentiment, Information_Awareness, F3A21_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">endogenous</div><div class="col-sm-6">F2A6, F5bA2_1, F5bA3_1, dax_points, Investment_Opinion, inflation_rate, F5aA2_1, F5A12_1, interest_rate, F5A11_1, F1A13_1, F5A10_1, F2A14, F5bA1_1, F5bA4_1, F5aA1_1, F5A13_1, F5aA3_1, MSCI_world, F3A16_1, F1A14_1, F5A14_1, Economical_Indices, F5bA5_1, F3A21_1, F3A17_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">exogenous</div><div class="col-sm-6">Energy_Crisis_Sentiment, Information_Awareness, Ukraine_Sentiment, Corona_Sentiment</div></div><div class="row"><div class="col-sm-2">observed</div><div class="col-sm-6">F1A13_1, F1A14_1, F2A14, F2A6, F3A16_1, F3A17_1, F3A21_1, F5A10_1, F5A10_2, F5A11_1, F5A12_1, F5A13_1, F5A14_1, F5aA1_1, F5aA2_1, F5aA3_1, F5bA1_1, F5bA2_1, F5bA3_1, F5bA4_1, F5bA5_1, MSCI_world, dax_points, inflation_rate, interest_rate</div></div><div class="row"><div class="col-sm-2">latent</div><div class="col-sm-6">Investment_Opinion, Corona_Sentiment, Ukraine_Sentiment, Energy_Crisis_Sentiment, Economical_Indices, Information_Awareness</div></div><div class="row"><div class="col-sm-2">indicator</div><div class="col-sm-6">F2A6, F5bA2_1, F5bA3_1, dax_points, inflation_rate, F5aA2_1, F5A12_1, F5A11_1, interest_rate, F1A13_1, F5A10_1, F2A14, F5bA1_1, F5bA4_1, F5aA1_1, F5A13_1, F5aA3_1, MSCI_world, F3A16_1, F1A14_1, F5A14_1, F5bA5_1, F3A21_1, F3A17_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">output</div><div class="col-sm-6"></div></div><div class="row"><div class="col-sm-2">_output</div><div class="col-sm-6">F2A6, F5bA2_1, dax_points, F5aA2_1, F5A12_1, interest_rate, F1A13_1, F5bA1_1, F5aA3_1, MSCI_world, F3A16_1, F1A14_1, F5bA5_1, F3A17_1, F5bA3_1, inflation_rate, F5A11_1, F5A10_1, F2A14, F5bA4_1, F5aA1_1, F5A13_1, F5A14_1, F3A21_1, F5A10_2</div></div><div class="row"><div class="col-sm-2">inner</div><div class="col-sm-6">Corona_Sentiment, Economical_Indices, Energy_Crisis_Sentiment, Information_Awareness, Investment_Opinion, Ukraine_Sentiment</div></div>
 	      </div>
 	    </div>
 	  </div>
@@ -139,7 +139,7 @@ nav .nav-link.active {
 	<a class="anchor" id="estimates"></a>
 	<h3>Estimates</h3>
 	<div style="font-family:monospace">
-	<div class="row"><div class='col-sm-2'></div><div class='col-sm-2'></div><div class='col-sm-1'>Estimate</div><div class='col-sm-1'>P-value</div></div><div class='col-sm-2'>Measurement:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>1.064</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.476</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.891</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.491</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.497</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>1.044</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.811</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.713</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.676</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>0.702</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.725</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.376</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Investment_Behavior =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>1.552</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Energy_Crisis_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>1.026</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.382</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>1.181</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>1.150</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>1.608</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Corona_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>0.471</div><div class='col-sm-1'>0.000</div></div><div class='col-sm-2'>Regressions:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Investment_Behavior ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>-0.259</div><div class='col-sm-1'>0.982</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-0.110</div><div class='col-sm-1'>0.996</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.070</div><div class='col-sm-1'>0.991</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>1.969</div><div class='col-sm-1'>0.970</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.843</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.528</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.185</div><div class='col-sm-1'>0.073</div></div><div class='col-sm-2'>Variances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.034</div><div class='col-sm-1'>0.578</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Economical_Indices</div><div class='col-sm-1'>0.659</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.105</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.431</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Investment_Behavior</div><div class='col-sm-1'>0.081</div><div class='col-sm-1'>0.708</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.325</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>0.289</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.009</div><div class='col-sm-1'>0.868</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>0.060</div><div class='col-sm-1'>0.062</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>0.849</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>0.530</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.800</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.893</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.803</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.781</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.773</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>0.992</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>0.895</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.889</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>0.675</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>0.161</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.966</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>0.637</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>0.787</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.939</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.569</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>0.512</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.902</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.657</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.716</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.896</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2'>Covariances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'>Corona_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-0.037</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.110</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.017</div><div class='col-sm-1'>0.015</div></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-0.053</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-0.119</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.040</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>inflation_rate ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>-0.143</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.489</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>dax_points ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>-0.095</div><div class='col-sm-1'>0.045</div></div><div class="row"><div class='col-sm-2 text-end'>MSCI_world ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>-0.026</div><div class='col-sm-1'>0.492</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.055</div><div class='col-sm-1'>0.264</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>-0.002</div><div class='col-sm-1'>0.913</div></div><div class="row"><div class='col-sm-2 text-end'>F3A21_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>0.267</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA4_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.036</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA2_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.263</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA3_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.379</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A11_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.505</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A10_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.430</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.417</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F3A17_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.386</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F1A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.271</div><div class='col-sm-1'>0.000</div></div>
+	<div class="row"><div class='col-sm-2'></div><div class='col-sm-2'></div><div class='col-sm-1'>Estimate</div><div class='col-sm-1'>P-value</div></div><div class='col-sm-2'>Measurement:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>0.998</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.491</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.823</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.434</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.483</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>1.106</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.767</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.707</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.664</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>0.696</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.714</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.387</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Investment_Opinion =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>1.626</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Energy_Crisis_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.982</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.427</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>1.332</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>1.190</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>1.700</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Corona_Sentiment =~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>1.000</div><div class='col-sm-1'>-</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>0.339</div><div class='col-sm-1'>0.000</div></div><div class='col-sm-2'>Regressions:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'>Investment_Opinion ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.193</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>-0.557</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>-0.061</div><div class='col-sm-1'>0.279</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.020</div><div class='col-sm-1'>0.369</div></div><div class="row"><div class='col-sm-2 text-end'>Economical_Indices ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.401</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.334</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>-0.067</div><div class='col-sm-1'>0.348</div></div><div class='col-sm-2'>Variances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.984</div><div class='col-sm-1'>0.343</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Economical_Indices</div><div class='col-sm-1'>0.579</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Energy_Crisis_Sentiment</div><div class='col-sm-1'>0.135</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>0.434</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Investment_Opinion</div><div class='col-sm-1'>0.280</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.306</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>0.095</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>0.000</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>MSCI_world</div><div class='col-sm-1'>0.082</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A21_1</div><div class='col-sm-1'>0.589</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA4_1</div><div class='col-sm-1'>0.597</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.626</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA3_1</div><div class='col-sm-1'>0.844</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.785</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.777</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.758</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A17_1</div><div class='col-sm-1'>0.835</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A13_1</div><div class='col-sm-1'>0.765</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.781</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A14</div><div class='col-sm-1'>0.699</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F2A6</div><div class='col-sm-1'>0.104</div><div class='col-sm-1'>0.018</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.000</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>0.078</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A12_1</div><div class='col-sm-1'>0.779</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A14_1</div><div class='col-sm-1'>0.993</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.575</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA2_1</div><div class='col-sm-1'>0.451</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.958</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA1_1</div><div class='col-sm-1'>0.565</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA5_1</div><div class='col-sm-1'>0.643</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.532</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2'>Covariances:</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'>Energy_Crisis_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>-0.009</div><div class='col-sm-1'>0.275</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Information_Awareness</div><div class='col-sm-1'>-0.045</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>-0.111</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Information_Awareness ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.107</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Ukraine_Sentiment</div><div class='col-sm-1'>0.039</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>Ukraine_Sentiment ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>Corona_Sentiment</div><div class='col-sm-1'>0.022</div><div class='col-sm-1'>0.001</div></div><div class="row"><div class='col-sm-2 text-end'>inflation_rate ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>-0.204</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>0.252</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>dax_points ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>-0.158</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>MSCI_world ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>dax_points</div><div class='col-sm-1'>-0.017</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>interest_rate</div><div class='col-sm-1'>-0.023</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>inflation_rate</div><div class='col-sm-1'>-0.060</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>F3A21_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_2</div><div class='col-sm-1'>-0.077</div><div class='col-sm-1'>1.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA4_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA1_1</div><div class='col-sm-1'>0.040</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA2_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5aA3_1</div><div class='col-sm-1'>0.240</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5bA3_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5bA2_1</div><div class='col-sm-1'>0.326</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A11_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A10_1</div><div class='col-sm-1'>0.499</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A10_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A13_1</div><div class='col-sm-1'>0.425</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F5A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F5A11_1</div><div class='col-sm-1'>0.409</div><div class='col-sm-1'>0.000</div></div><div class="row"><div class='col-sm-2 text-end'>F3A17_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F3A16_1</div><div class='col-sm-1'>0.055</div><div class='col-sm-1'>0.877</div></div><div class="row"><div class='col-sm-2 text-end'>F1A13_1 ~</div><div class='col-sm-2'></div><div class='col-sm-1'></div><div class='col-sm-1'></div></div><div class="row"><div class='col-sm-2 text-end'></div><div class='col-sm-2'>F1A14_1</div><div class='col-sm-1'>0.211</div><div class='col-sm-1'>0.000</div></div>
 	</div>
 	<br>
 	<div class="accordion" id="accordion3">
@@ -151,31 +151,31 @@ nav .nav-link.active {
 	    </h2>	
 	    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion3">
 	      <div class="accordion-body" style="background-color: #f6f8fa;max-width: 100%;width: 100%">
-		<pre style="font-family: monospace">                   lval  op                     rval  Estimate   Std. Err  \
-0   Investment_Behavior   ~    Information_Awareness -0.258604  11.573963   
-1   Investment_Behavior   ~  Energy_Crisis_Sentiment -0.109848   19.57027   
-2   Investment_Behavior   ~        Ukraine_Sentiment  0.069605   5.923253   
-3   Investment_Behavior   ~         Corona_Sentiment  1.969169  52.439863   
-4    Economical_Indices   ~  Energy_Crisis_Sentiment  0.843091    0.16727   
-..                  ...  ..                      ...       ...        ...   
-79              F5aA2_1  ~~                  F5aA2_1  0.511565   0.010204   
-80              F5aA3_1  ~~                  F5aA3_1  0.902280    0.01437   
-81              F5bA1_1  ~~                  F5bA1_1  0.657308   0.011587   
-82              F5bA5_1  ~~                  F5bA5_1  0.716020   0.012222   
-83        interest_rate  ~~            interest_rate  0.896355   0.037892   
+		<pre style="font-family: monospace">                  lval  op                     rval  Estimate     Std. Err  \
+0   Investment_Opinion   ~    Information_Awareness  0.193212     0.018243   
+1   Investment_Opinion   ~  Energy_Crisis_Sentiment -0.556531     0.159082   
+2   Investment_Opinion   ~        Ukraine_Sentiment -0.061266     0.056634   
+3   Investment_Opinion   ~         Corona_Sentiment  0.019984     0.022243   
+4   Economical_Indices   ~  Energy_Crisis_Sentiment  0.401035     0.106814   
+..                 ...  ..                      ...       ...          ...   
+79             F5aA2_1  ~~                  F5aA2_1  0.450652     0.009003   
+80             F5aA3_1  ~~                  F5aA3_1  0.958171     0.015263   
+81             F5bA1_1  ~~                  F5bA1_1  0.564725     0.009955   
+82             F5bA5_1  ~~                  F5bA5_1  0.643331     0.010982   
+83       interest_rate  ~~            interest_rate  0.531904  5761.754494   
 
       z-value   p-value  
-0   -0.022344  0.982174  
-1   -0.005613  0.995521  
-2    0.011751  0.990624  
-3    0.037551  0.970046  
-4    5.040305       0.0  
+0   10.590942       0.0  
+1   -3.498382  0.000468  
+2   -1.081786  0.279348  
+3    0.898441  0.368951  
+4    3.754505  0.000174  
 ..        ...       ...  
-79  50.133171       0.0  
-80   62.78735       0.0  
-81  56.727486       0.0  
-82  58.582794       0.0  
-83  23.655287       0.0  
+79   50.05432       0.0  
+80  62.776914       0.0  
+81  56.729129       0.0  
+82  58.581022       0.0  
+83   0.000092  0.999926  
 
 [84 rows x 7 columns]</pre>
 	      </div>
@@ -196,16 +196,16 @@ nav .nav-link.active {
 Optimization method: SLSQP
 Optimization successful.
 Optimization terminated successfully
-Objective value: 1.579
-Number of iterations: 213
-Params: 1.064 0.476 0.891 0.491 0.497 1.044 0.811 0.713 0.676 0.702 0.725 0.376 1.552 1.026 0.382 1.181 1.150 1.608 0.471 -0.259 -0.110 0.070 1.969 0.843 0.528 0.185 -0.143 0.489 0.289 -0.095 0.009 -0.026 0.055 -0.002 0.060 0.267 0.849 0.036 0.530 0.263 0.800 0.379 0.893 0.505 0.803 0.430 0.781 0.417 0.773 0.386 0.992 0.271 0.895 0.034 -0.037 0.110 0.017 0.659 0.105 0.889 0.675 0.161 0.966 0.637 0.787 0.939 0.569 0.512 0.902 0.657 0.716 0.431 -0.053 0.081 0.325 -0.119 0.040 0.896</pre>
+Objective value: 1.574
+Number of iterations: 133
+Params: 0.998 0.491 0.823 0.434 0.483 1.106 0.767 0.707 0.664 0.696 0.714 0.387 1.626 0.982 0.427 1.332 1.190 1.700 0.339 0.193 -0.557 -0.061 0.020 0.401 0.334 -0.067 -0.204 0.252 0.095 -0.158 0.000 -0.017 -0.023 -0.060 0.082 -0.077 0.589 0.040 0.597 0.240 0.626 0.326 0.844 0.499 0.785 0.425 0.777 0.409 0.758 0.055 0.835 0.211 0.765 0.984 0.579 0.135 -0.009 -0.045 -0.111 0.781 0.699 0.104 0.000 0.078 0.779 0.993 0.575 0.451 0.958 0.565 0.643 0.434 0.107 0.039 0.280 0.306 0.022 0.532</pre>
 	      </div>
 	    </div>
 	  </div>
 	</div>
 	<a class="anchor" id="indices"></a>
 	<h3>Fit indices</h3>
-	<table class="table"><thead><tr><th scope='col'>DoF</th><th scope='col'>DoF Baseline</th><th scope='col'>chi2</th><th scope='col'>chi2 p-value</th><th scope='col'>chi2 Baseline</th></tr></thead><tbody><tr><td>247.000</td><td>300.000</td><td>13077.363</td><td>0.000</td><td>93800.549</td></tr></tbody></table><table class="table"><thead><tr><th scope='col'>CFI</th><th scope='col'>GFI</th><th scope='col'>AGFI</th><th scope='col'>NFI</th><th scope='col'>TLI</th></tr></thead><tbody><tr><td>0.863</td><td>0.861</td><td>0.831</td><td>0.861</td><td>0.833</td></tr></tbody></table><table class="table"><thead><tr><th scope='col'>RMSEA</th><th scope='col'>AIC</th><th scope='col'>BIC</th><th scope='col'>LogLik</th></tr></thead><tbody><tr><td>0.079</td><td>152.842</td><td>700.545</td><td>1.579</td></tr></tbody></table>
+	<table class="table"><thead><tr><th scope='col'>DoF</th><th scope='col'>DoF Baseline</th><th scope='col'>chi2</th><th scope='col'>chi2 p-value</th><th scope='col'>chi2 Baseline</th></tr></thead><tbody><tr><td>247.000</td><td>300.000</td><td>13036.051</td><td>0.000</td><td>93800.550</td></tr></tbody></table><table class="table"><thead><tr><th scope='col'>CFI</th><th scope='col'>GFI</th><th scope='col'>AGFI</th><th scope='col'>NFI</th><th scope='col'>TLI</th></tr></thead><tbody><tr><td>0.863</td><td>0.861</td><td>0.831</td><td>0.861</td><td>0.834</td></tr></tbody></table><table class="table"><thead><tr><th scope='col'>RMSEA</th><th scope='col'>AIC</th><th scope='col'>BIC</th><th scope='col'>LogLik</th></tr></thead><tbody><tr><td>0.079</td><td>152.852</td><td>700.555</td><td>1.574</td></tr></tbody></table>
 	<a class="anchor" id="matrices"></a>
 	<h3>Matrices</h3>
  	<center><h4>Covariance matrix</h4></center>
@@ -249,18 +249,18 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
   <tbody>
     <tr>
       <th>F1A13_1</th>
-      <td>1.00</td>
-      <td>0.38</td>
+      <td>0.90</td>
+      <td>0.34</td>
       <td>-0.10</td>
-      <td>-0.23</td>
+      <td>-0.22</td>
       <td>0.02</td>
-      <td>0.04</td>
+      <td>0.03</td>
       <td>-0.05</td>
       <td>-0.14</td>
-      <td>-0.11</td>
-      <td>-0.16</td>
       <td>-0.10</td>
-      <td>-0.13</td>
+      <td>-0.15</td>
+      <td>-0.09</td>
+      <td>-0.12</td>
       <td>-0.06</td>
       <td>-0.02</td>
       <td>0.02</td>
@@ -270,38 +270,38 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>0.01</td>
       <td>0.02</td>
       <td>0.04</td>
-      <td>-0.01</td>
+      <td>-0.00</td>
       <td>-0.01</td>
       <td>0.01</td>
       <td>0.02</td>
     </tr>
     <tr>
       <th>F1A14_1</th>
-      <td>0.38</td>
-      <td>1.00</td>
+      <td>0.34</td>
+      <td>0.91</td>
       <td>-0.06</td>
-      <td>-0.17</td>
+      <td>-0.16</td>
       <td>-0.04</td>
-      <td>-0.03</td>
-      <td>-0.13</td>
-      <td>-0.18</td>
-      <td>-0.15</td>
-      <td>-0.19</td>
+      <td>-0.02</td>
       <td>-0.12</td>
       <td>-0.17</td>
+      <td>-0.14</td>
+      <td>-0.18</td>
+      <td>-0.12</td>
+      <td>-0.16</td>
       <td>-0.07</td>
       <td>-0.13</td>
+      <td>-0.03</td>
       <td>-0.04</td>
-      <td>-0.04</td>
-      <td>-0.09</td>
-      <td>-0.04</td>
+      <td>-0.08</td>
+      <td>-0.03</td>
       <td>-0.01</td>
       <td>-0.04</td>
       <td>-0.01</td>
       <td>0.05</td>
       <td>0.04</td>
-      <td>0.06</td>
-      <td>0.04</td>
+      <td>0.05</td>
+      <td>0.03</td>
     </tr>
     <tr>
       <th>F2A14</th>
@@ -310,7 +310,7 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>1.00</td>
       <td>0.52</td>
       <td>-0.05</td>
-      <td>-0.12</td>
+      <td>-0.11</td>
       <td>0.08</td>
       <td>0.03</td>
       <td>0.10</td>
@@ -324,25 +324,25 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>0.05</td>
       <td>-0.04</td>
       <td>-0.07</td>
-      <td>-0.05</td>
+      <td>-0.06</td>
       <td>-0.04</td>
       <td>0.15</td>
-      <td>0.17</td>
-      <td>0.13</td>
-      <td>0.05</td>
+      <td>0.18</td>
+      <td>0.11</td>
+      <td>0.04</td>
     </tr>
     <tr>
       <th>F2A6</th>
-      <td>-0.23</td>
-      <td>-0.17</td>
+      <td>-0.22</td>
+      <td>-0.16</td>
       <td>0.52</td>
-      <td>1.00</td>
+      <td>0.99</td>
       <td>0.04</td>
       <td>-0.01</td>
-      <td>0.11</td>
-      <td>0.24</td>
+      <td>0.10</td>
+      <td>0.23</td>
       <td>0.14</td>
-      <td>0.25</td>
+      <td>0.24</td>
       <td>0.13</td>
       <td>0.20</td>
       <td>0.02</td>
@@ -354,9 +354,9 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>-0.08</td>
       <td>-0.00</td>
       <td>0.02</td>
-      <td>0.13</td>
-      <td>0.13</td>
-      <td>0.09</td>
+      <td>0.12</td>
+      <td>0.14</td>
+      <td>0.08</td>
       <td>0.01</td>
     </tr>
     <tr>
@@ -365,51 +365,51 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>-0.04</td>
       <td>-0.05</td>
       <td>0.04</td>
-      <td>1.00</td>
-      <td>0.40</td>
+      <td>0.98</td>
+      <td>0.39</td>
       <td>0.04</td>
-      <td>0.16</td>
+      <td>0.15</td>
       <td>0.07</td>
       <td>0.15</td>
       <td>0.13</td>
-      <td>0.13</td>
+      <td>0.12</td>
       <td>0.13</td>
       <td>0.12</td>
       <td>0.09</td>
       <td>0.07</td>
-      <td>0.05</td>
+      <td>0.04</td>
       <td>0.01</td>
       <td>0.06</td>
-      <td>0.09</td>
+      <td>0.10</td>
       <td>0.07</td>
       <td>-0.04</td>
       <td>-0.05</td>
-      <td>-0.08</td>
       <td>-0.07</td>
+      <td>-0.05</td>
     </tr>
     <tr>
       <th>F3A17_1</th>
-      <td>0.04</td>
-      <td>-0.03</td>
-      <td>-0.12</td>
+      <td>0.03</td>
+      <td>-0.02</td>
+      <td>-0.11</td>
       <td>-0.01</td>
-      <td>0.40</td>
-      <td>1.00</td>
+      <td>0.39</td>
+      <td>0.95</td>
       <td>0.00</td>
       <td>0.16</td>
       <td>0.00</td>
       <td>0.18</td>
-      <td>0.12</td>
+      <td>0.11</td>
       <td>0.13</td>
       <td>0.02</td>
       <td>0.08</td>
       <td>0.02</td>
       <td>0.00</td>
-      <td>0.03</td>
+      <td>0.02</td>
       <td>-0.01</td>
       <td>0.01</td>
       <td>0.05</td>
-      <td>0.04</td>
+      <td>0.03</td>
       <td>0.03</td>
       <td>0.03</td>
       <td>-0.00</td>
@@ -418,170 +418,170 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
     <tr>
       <th>F3A21_1</th>
       <td>-0.05</td>
-      <td>-0.13</td>
+      <td>-0.12</td>
       <td>0.08</td>
-      <td>0.11</td>
+      <td>0.10</td>
       <td>0.04</td>
       <td>0.00</td>
-      <td>1.00</td>
-      <td>0.14</td>
-      <td>0.50</td>
-      <td>0.10</td>
+      <td>0.93</td>
+      <td>0.13</td>
+      <td>0.48</td>
+      <td>0.09</td>
       <td>0.09</td>
       <td>0.14</td>
       <td>0.04</td>
       <td>0.13</td>
-      <td>0.06</td>
-      <td>0.06</td>
-      <td>0.16</td>
-      <td>0.07</td>
       <td>0.05</td>
+      <td>0.06</td>
+      <td>0.14</td>
+      <td>0.06</td>
       <td>0.04</td>
+      <td>0.05</td>
       <td>0.07</td>
       <td>-0.05</td>
       <td>-0.05</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
       <td>-0.01</td>
     </tr>
     <tr>
       <th>F5A10_1</th>
       <td>-0.14</td>
-      <td>-0.18</td>
+      <td>-0.17</td>
       <td>0.03</td>
-      <td>0.24</td>
-      <td>0.16</td>
-      <td>0.16</td>
-      <td>0.14</td>
-      <td>1.00</td>
-      <td>0.26</td>
-      <td>0.71</td>
-      <td>0.51</td>
-      <td>0.65</td>
-      <td>0.18</td>
-      <td>0.40</td>
       <td>0.23</td>
+      <td>0.15</td>
+      <td>0.16</td>
+      <td>0.13</td>
+      <td>0.99</td>
+      <td>0.26</td>
+      <td>0.70</td>
+      <td>0.50</td>
+      <td>0.64</td>
+      <td>0.19</td>
+      <td>0.40</td>
+      <td>0.22</td>
       <td>0.02</td>
-      <td>0.29</td>
-      <td>0.05</td>
+      <td>0.26</td>
+      <td>0.04</td>
       <td>0.00</td>
-      <td>0.24</td>
-      <td>0.21</td>
+      <td>0.25</td>
+      <td>0.20</td>
       <td>0.02</td>
       <td>0.01</td>
-      <td>0.03</td>
-      <td>0.03</td>
+      <td>0.02</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>F5A10_2</th>
-      <td>-0.11</td>
-      <td>-0.15</td>
+      <td>-0.10</td>
+      <td>-0.14</td>
       <td>0.10</td>
       <td>0.14</td>
       <td>0.07</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.48</td>
       <td>0.26</td>
-      <td>1.00</td>
-      <td>0.19</td>
-      <td>0.28</td>
+      <td>0.98</td>
+      <td>0.18</td>
+      <td>0.27</td>
       <td>0.27</td>
       <td>0.22</td>
       <td>0.13</td>
-      <td>0.13</td>
-      <td>0.13</td>
-      <td>0.17</td>
-      <td>0.11</td>
-      <td>0.11</td>
-      <td>0.10</td>
       <td>0.12</td>
+      <td>0.13</td>
+      <td>0.16</td>
+      <td>0.10</td>
+      <td>0.10</td>
+      <td>0.11</td>
+      <td>0.11</td>
       <td>-0.04</td>
       <td>-0.04</td>
-      <td>-0.05</td>
-      <td>-0.05</td>
+      <td>-0.04</td>
+      <td>-0.04</td>
     </tr>
     <tr>
       <th>F5A11_1</th>
-      <td>-0.16</td>
-      <td>-0.19</td>
+      <td>-0.15</td>
+      <td>-0.18</td>
       <td>0.02</td>
-      <td>0.25</td>
+      <td>0.24</td>
       <td>0.15</td>
       <td>0.18</td>
-      <td>0.10</td>
-      <td>0.71</td>
-      <td>0.19</td>
-      <td>1.00</td>
-      <td>0.47</td>
-      <td>0.63</td>
+      <td>0.09</td>
+      <td>0.70</td>
+      <td>0.18</td>
+      <td>0.98</td>
+      <td>0.46</td>
+      <td>0.61</td>
       <td>0.11</td>
-      <td>0.44</td>
-      <td>0.19</td>
+      <td>0.43</td>
+      <td>0.17</td>
       <td>-0.01</td>
-      <td>0.24</td>
-      <td>0.04</td>
-      <td>-0.01</td>
-      <td>0.25</td>
       <td>0.22</td>
-      <td>0.05</td>
-      <td>0.05</td>
-      <td>0.05</td>
       <td>0.03</td>
+      <td>-0.01</td>
+      <td>0.27</td>
+      <td>0.20</td>
+      <td>0.05</td>
+      <td>0.05</td>
+      <td>0.04</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>F5A12_1</th>
-      <td>-0.10</td>
+      <td>-0.09</td>
       <td>-0.12</td>
       <td>0.01</td>
       <td>0.13</td>
       <td>0.13</td>
-      <td>0.12</td>
+      <td>0.11</td>
       <td>0.09</td>
-      <td>0.51</td>
-      <td>0.28</td>
-      <td>0.47</td>
-      <td>1.00</td>
-      <td>0.49</td>
-      <td>0.36</td>
-      <td>0.20</td>
-      <td>0.31</td>
-      <td>0.13</td>
-      <td>0.17</td>
-      <td>0.11</td>
-      <td>0.11</td>
+      <td>0.50</td>
       <td>0.27</td>
-      <td>0.17</td>
+      <td>0.46</td>
+      <td>0.99</td>
+      <td>0.49</td>
+      <td>0.37</td>
+      <td>0.20</td>
+      <td>0.29</td>
+      <td>0.13</td>
+      <td>0.16</td>
+      <td>0.10</td>
+      <td>0.10</td>
+      <td>0.29</td>
+      <td>0.16</td>
       <td>-0.04</td>
       <td>-0.05</td>
       <td>-0.04</td>
-      <td>-0.03</td>
+      <td>-0.02</td>
     </tr>
     <tr>
       <th>F5A13_1</th>
-      <td>-0.13</td>
-      <td>-0.17</td>
+      <td>-0.12</td>
+      <td>-0.16</td>
       <td>0.02</td>
       <td>0.20</td>
-      <td>0.13</td>
+      <td>0.12</td>
       <td>0.13</td>
       <td>0.14</td>
-      <td>0.65</td>
+      <td>0.64</td>
       <td>0.27</td>
-      <td>0.63</td>
+      <td>0.61</td>
       <td>0.49</td>
-      <td>1.00</td>
+      <td>0.98</td>
       <td>0.21</td>
       <td>0.37</td>
-      <td>0.24</td>
-      <td>0.03</td>
-      <td>0.31</td>
-      <td>0.08</td>
-      <td>0.03</td>
-      <td>0.24</td>
       <td>0.22</td>
-      <td>0.04</td>
+      <td>0.03</td>
+      <td>0.28</td>
+      <td>0.07</td>
+      <td>0.03</td>
+      <td>0.25</td>
+      <td>0.20</td>
       <td>0.03</td>
       <td>0.03</td>
       <td>0.03</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>F5A14_1</th>
@@ -592,24 +592,24 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>0.13</td>
       <td>0.02</td>
       <td>0.04</td>
-      <td>0.18</td>
+      <td>0.19</td>
       <td>0.22</td>
       <td>0.11</td>
-      <td>0.36</td>
+      <td>0.37</td>
       <td>0.21</td>
-      <td>1.00</td>
+      <td>1.06</td>
       <td>-0.01</td>
-      <td>0.16</td>
-      <td>0.36</td>
+      <td>0.15</td>
+      <td>0.38</td>
       <td>0.07</td>
-      <td>0.30</td>
+      <td>0.27</td>
       <td>0.28</td>
-      <td>0.09</td>
+      <td>0.10</td>
       <td>0.05</td>
       <td>-0.16</td>
-      <td>-0.18</td>
-      <td>-0.16</td>
-      <td>-0.10</td>
+      <td>-0.19</td>
+      <td>-0.14</td>
+      <td>-0.09</td>
     </tr>
     <tr>
       <th>F5aA1_1</th>
@@ -622,46 +622,46 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>0.13</td>
       <td>0.40</td>
       <td>0.13</td>
-      <td>0.44</td>
+      <td>0.43</td>
       <td>0.20</td>
       <td>0.37</td>
       <td>-0.01</td>
-      <td>1.00</td>
-      <td>0.47</td>
-      <td>0.10</td>
-      <td>0.48</td>
-      <td>0.14</td>
+      <td>1.01</td>
+      <td>0.45</td>
+      <td>0.11</td>
+      <td>0.45</td>
+      <td>0.12</td>
       <td>0.07</td>
-      <td>0.49</td>
-      <td>0.37</td>
+      <td>0.52</td>
+      <td>0.35</td>
       <td>0.05</td>
       <td>0.04</td>
-      <td>0.05</td>
-      <td>0.03</td>
+      <td>0.04</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>F5aA2_1</th>
       <td>0.02</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
       <td>-0.02</td>
       <td>0.01</td>
       <td>0.09</td>
       <td>0.02</td>
-      <td>0.06</td>
-      <td>0.23</td>
-      <td>0.13</td>
-      <td>0.19</td>
-      <td>0.31</td>
-      <td>0.24</td>
-      <td>0.16</td>
-      <td>0.47</td>
-      <td>1.00</td>
-      <td>0.26</td>
-      <td>0.38</td>
+      <td>0.05</td>
       <td>0.22</td>
-      <td>0.23</td>
+      <td>0.12</td>
+      <td>0.17</td>
+      <td>0.29</td>
+      <td>0.22</td>
+      <td>0.15</td>
+      <td>0.45</td>
+      <td>0.88</td>
+      <td>0.25</td>
+      <td>0.33</td>
+      <td>0.18</td>
+      <td>0.21</td>
       <td>0.59</td>
-      <td>0.35</td>
+      <td>0.31</td>
       <td>-0.01</td>
       <td>-0.03</td>
       <td>0.01</td>
@@ -681,75 +681,75 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>-0.01</td>
       <td>0.13</td>
       <td>0.03</td>
-      <td>0.36</td>
-      <td>0.10</td>
-      <td>0.26</td>
-      <td>1.00</td>
-      <td>0.22</td>
-      <td>0.53</td>
+      <td>0.38</td>
+      <td>0.11</td>
+      <td>0.25</td>
+      <td>1.06</td>
+      <td>0.21</td>
+      <td>0.48</td>
       <td>0.49</td>
-      <td>0.15</td>
       <td>0.16</td>
+      <td>0.15</td>
       <td>-0.06</td>
-      <td>-0.07</td>
       <td>-0.08</td>
       <td>-0.07</td>
+      <td>-0.06</td>
     </tr>
     <tr>
       <th>F5bA1_1</th>
       <td>0.02</td>
-      <td>-0.09</td>
+      <td>-0.08</td>
       <td>0.05</td>
       <td>0.08</td>
-      <td>0.05</td>
-      <td>0.03</td>
+      <td>0.04</td>
+      <td>0.02</td>
+      <td>0.14</td>
+      <td>0.26</td>
       <td>0.16</td>
-      <td>0.29</td>
-      <td>0.17</td>
-      <td>0.24</td>
-      <td>0.17</td>
-      <td>0.31</td>
+      <td>0.22</td>
+      <td>0.16</td>
+      <td>0.28</td>
       <td>0.07</td>
-      <td>0.48</td>
-      <td>0.38</td>
-      <td>0.22</td>
-      <td>1.00</td>
-      <td>0.25</td>
-      <td>0.22</td>
-      <td>0.35</td>
-      <td>0.35</td>
+      <td>0.45</td>
+      <td>0.33</td>
+      <td>0.21</td>
+      <td>0.86</td>
+      <td>0.20</td>
+      <td>0.20</td>
+      <td>0.34</td>
+      <td>0.31</td>
       <td>0.03</td>
       <td>0.01</td>
-      <td>0.07</td>
-      <td>0.08</td>
+      <td>0.06</td>
+      <td>0.06</td>
     </tr>
     <tr>
       <th>F5bA2_1</th>
       <td>-0.01</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
       <td>-0.04</td>
       <td>-0.03</td>
       <td>0.01</td>
       <td>-0.01</td>
-      <td>0.07</td>
-      <td>0.05</td>
-      <td>0.11</td>
+      <td>0.06</td>
       <td>0.04</td>
-      <td>0.11</td>
-      <td>0.08</td>
-      <td>0.30</td>
-      <td>0.14</td>
-      <td>0.22</td>
-      <td>0.53</td>
-      <td>0.25</td>
-      <td>1.00</td>
-      <td>0.60</td>
-      <td>0.20</td>
+      <td>0.10</td>
+      <td>0.03</td>
+      <td>0.10</td>
+      <td>0.07</td>
+      <td>0.27</td>
+      <td>0.12</td>
       <td>0.18</td>
+      <td>0.48</td>
+      <td>0.20</td>
+      <td>0.78</td>
+      <td>0.51</td>
+      <td>0.19</td>
+      <td>0.15</td>
       <td>-0.03</td>
       <td>-0.03</td>
-      <td>-0.08</td>
-      <td>-0.10</td>
+      <td>-0.06</td>
+      <td>-0.07</td>
     </tr>
     <tr>
       <th>F5bA3_1</th>
@@ -759,53 +759,53 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>-0.08</td>
       <td>0.06</td>
       <td>0.01</td>
-      <td>0.05</td>
+      <td>0.04</td>
       <td>0.00</td>
-      <td>0.11</td>
+      <td>0.10</td>
       <td>-0.01</td>
-      <td>0.11</td>
+      <td>0.10</td>
       <td>0.03</td>
       <td>0.28</td>
       <td>0.07</td>
-      <td>0.23</td>
+      <td>0.21</td>
       <td>0.49</td>
-      <td>0.22</td>
-      <td>0.60</td>
-      <td>1.00</td>
-      <td>0.27</td>
-      <td>0.22</td>
-      <td>-0.09</td>
+      <td>0.20</td>
+      <td>0.51</td>
+      <td>0.95</td>
+      <td>0.28</td>
+      <td>0.20</td>
       <td>-0.09</td>
       <td>-0.10</td>
       <td>-0.08</td>
+      <td>-0.06</td>
     </tr>
     <tr>
       <th>F5bA4_1</th>
       <td>0.02</td>
       <td>-0.04</td>
-      <td>-0.05</td>
+      <td>-0.06</td>
       <td>-0.00</td>
-      <td>0.09</td>
-      <td>0.05</td>
-      <td>0.04</td>
-      <td>0.24</td>
       <td>0.10</td>
+      <td>0.05</td>
+      <td>0.05</td>
       <td>0.25</td>
+      <td>0.11</td>
       <td>0.27</td>
-      <td>0.24</td>
-      <td>0.09</td>
-      <td>0.49</td>
+      <td>0.29</td>
+      <td>0.25</td>
+      <td>0.10</td>
+      <td>0.52</td>
       <td>0.59</td>
-      <td>0.15</td>
-      <td>0.35</td>
-      <td>0.20</td>
-      <td>0.27</td>
-      <td>1.00</td>
+      <td>0.16</td>
+      <td>0.34</td>
+      <td>0.19</td>
+      <td>0.28</td>
+      <td>1.13</td>
       <td>0.42</td>
       <td>0.00</td>
       <td>-0.01</td>
       <td>0.03</td>
-      <td>0.05</td>
+      <td>0.04</td>
     </tr>
     <tr>
       <th>F5bA5_1</th>
@@ -814,33 +814,33 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>-0.04</td>
       <td>0.02</td>
       <td>0.07</td>
-      <td>0.04</td>
+      <td>0.03</td>
       <td>0.07</td>
-      <td>0.21</td>
-      <td>0.12</td>
-      <td>0.22</td>
-      <td>0.17</td>
-      <td>0.22</td>
-      <td>0.05</td>
-      <td>0.37</td>
-      <td>0.35</td>
+      <td>0.20</td>
+      <td>0.11</td>
+      <td>0.20</td>
       <td>0.16</td>
-      <td>0.35</td>
-      <td>0.18</td>
-      <td>0.22</td>
-      <td>0.42</td>
-      <td>1.00</td>
-      <td>0.06</td>
-      <td>0.06</td>
-      <td>0.07</td>
+      <td>0.20</td>
       <td>0.05</td>
+      <td>0.35</td>
+      <td>0.31</td>
+      <td>0.15</td>
+      <td>0.31</td>
+      <td>0.15</td>
+      <td>0.20</td>
+      <td>0.42</td>
+      <td>0.90</td>
+      <td>0.06</td>
+      <td>0.06</td>
+      <td>0.06</td>
+      <td>0.04</td>
     </tr>
     <tr>
       <th>MSCI_world</th>
-      <td>-0.01</td>
+      <td>-0.00</td>
       <td>0.05</td>
       <td>0.15</td>
-      <td>0.13</td>
+      <td>0.12</td>
       <td>-0.04</td>
       <td>0.03</td>
       <td>-0.05</td>
@@ -848,7 +848,7 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>-0.04</td>
       <td>0.05</td>
       <td>-0.04</td>
-      <td>0.04</td>
+      <td>0.03</td>
       <td>-0.16</td>
       <td>0.05</td>
       <td>-0.01</td>
@@ -858,17 +858,17 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>-0.09</td>
       <td>0.00</td>
       <td>0.06</td>
-      <td>1.00</td>
       <td>0.94</td>
-      <td>0.82</td>
-      <td>0.37</td>
+      <td>0.95</td>
+      <td>0.66</td>
+      <td>0.29</td>
     </tr>
     <tr>
       <th>dax_points</th>
       <td>-0.01</td>
       <td>0.04</td>
-      <td>0.17</td>
-      <td>0.13</td>
+      <td>0.18</td>
+      <td>0.14</td>
       <td>-0.05</td>
       <td>0.03</td>
       <td>-0.05</td>
@@ -877,75 +877,75 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>0.05</td>
       <td>-0.05</td>
       <td>0.03</td>
-      <td>-0.18</td>
+      <td>-0.19</td>
       <td>0.04</td>
       <td>-0.03</td>
-      <td>-0.07</td>
+      <td>-0.08</td>
       <td>0.01</td>
       <td>-0.03</td>
-      <td>-0.09</td>
+      <td>-0.10</td>
       <td>-0.01</td>
       <td>0.06</td>
-      <td>0.94</td>
-      <td>1.00</td>
-      <td>0.70</td>
-      <td>0.23</td>
+      <td>0.95</td>
+      <td>1.08</td>
+      <td>0.61</td>
+      <td>0.19</td>
     </tr>
     <tr>
       <th>inflation_rate</th>
       <td>0.01</td>
-      <td>0.06</td>
-      <td>0.13</td>
-      <td>0.09</td>
-      <td>-0.08</td>
+      <td>0.05</td>
+      <td>0.11</td>
+      <td>0.08</td>
+      <td>-0.07</td>
       <td>-0.00</td>
+      <td>-0.03</td>
+      <td>0.02</td>
+      <td>-0.04</td>
+      <td>0.04</td>
       <td>-0.04</td>
       <td>0.03</td>
-      <td>-0.05</td>
-      <td>0.05</td>
-      <td>-0.04</td>
-      <td>0.03</td>
-      <td>-0.16</td>
-      <td>0.05</td>
+      <td>-0.14</td>
+      <td>0.04</td>
       <td>0.01</td>
+      <td>-0.07</td>
+      <td>0.06</td>
+      <td>-0.06</td>
       <td>-0.08</td>
-      <td>0.07</td>
-      <td>-0.08</td>
-      <td>-0.10</td>
       <td>0.03</td>
-      <td>0.07</td>
-      <td>0.82</td>
+      <td>0.06</td>
+      <td>0.66</td>
+      <td>0.61</td>
       <td>0.70</td>
-      <td>1.00</td>
-      <td>0.76</td>
+      <td>0.51</td>
     </tr>
     <tr>
       <th>interest_rate</th>
       <td>0.02</td>
+      <td>0.03</td>
       <td>0.04</td>
-      <td>0.05</td>
       <td>0.01</td>
-      <td>-0.07</td>
+      <td>-0.05</td>
       <td>-0.02</td>
       <td>-0.01</td>
-      <td>0.03</td>
-      <td>-0.05</td>
-      <td>0.03</td>
-      <td>-0.03</td>
-      <td>0.03</td>
-      <td>-0.10</td>
-      <td>0.03</td>
       <td>0.02</td>
+      <td>-0.04</td>
+      <td>0.02</td>
+      <td>-0.02</td>
+      <td>0.02</td>
+      <td>-0.09</td>
+      <td>0.02</td>
+      <td>0.02</td>
+      <td>-0.06</td>
+      <td>0.06</td>
       <td>-0.07</td>
-      <td>0.08</td>
-      <td>-0.10</td>
-      <td>-0.08</td>
-      <td>0.05</td>
-      <td>0.05</td>
-      <td>0.37</td>
-      <td>0.23</td>
-      <td>0.76</td>
-      <td>1.00</td>
+      <td>-0.06</td>
+      <td>0.04</td>
+      <td>0.04</td>
+      <td>0.29</td>
+      <td>0.19</td>
+      <td>0.51</td>
+      <td>0.64</td>
     </tr>
   </tbody>
 </table></div><div class="tab-pane fade " id="modelimplied" role="tabpanel" aria-labelledby="modelimplied-tab"><table border="1" class="dataframe table table-bordered">
@@ -982,27 +982,27 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
   <tbody>
     <tr>
       <th>F1A13_1</th>
-      <td>1.00</td>
-      <td>0.38</td>
-      <td>-0.12</td>
+      <td>0.90</td>
+      <td>0.34</td>
+      <td>-0.11</td>
       <td>-0.19</td>
-      <td>-0.04</td>
-      <td>-0.02</td>
+      <td>-0.01</td>
+      <td>-0.00</td>
       <td>-0.08</td>
-      <td>-0.04</td>
-      <td>-0.12</td>
-      <td>-0.04</td>
-      <td>-0.04</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
+      <td>-0.13</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
       <td>-0.02</td>
       <td>-0.05</td>
-      <td>-0.06</td>
-      <td>-0.03</td>
+      <td>-0.05</td>
+      <td>-0.02</td>
+      <td>-0.04</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
       <td>-0.05</td>
       <td>-0.03</td>
-      <td>-0.03</td>
-      <td>-0.06</td>
-      <td>-0.04</td>
       <td>0.02</td>
       <td>0.02</td>
       <td>0.02</td>
@@ -1010,27 +1010,27 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
     </tr>
     <tr>
       <th>F1A14_1</th>
-      <td>0.38</td>
-      <td>1.00</td>
-      <td>-0.12</td>
-      <td>-0.20</td>
-      <td>-0.04</td>
-      <td>-0.02</td>
+      <td>0.34</td>
+      <td>0.91</td>
+      <td>-0.11</td>
+      <td>-0.19</td>
+      <td>-0.01</td>
+      <td>-0.00</td>
       <td>-0.08</td>
-      <td>-0.04</td>
-      <td>-0.13</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
+      <td>-0.12</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
+      <td>-0.02</td>
       <td>-0.04</td>
       <td>-0.04</td>
       <td>-0.02</td>
-      <td>-0.05</td>
-      <td>-0.06</td>
-      <td>-0.03</td>
-      <td>-0.05</td>
-      <td>-0.03</td>
-      <td>-0.03</td>
-      <td>-0.06</td>
       <td>-0.04</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+      <td>-0.05</td>
+      <td>-0.03</td>
       <td>0.02</td>
       <td>0.02</td>
       <td>0.02</td>
@@ -1038,39 +1038,39 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
     </tr>
     <tr>
       <th>F2A14</th>
-      <td>-0.12</td>
-      <td>-0.12</td>
+      <td>-0.11</td>
+      <td>-0.11</td>
       <td>1.00</td>
       <td>0.52</td>
       <td>0.02</td>
       <td>0.01</td>
-      <td>0.06</td>
+      <td>0.05</td>
       <td>0.03</td>
-      <td>0.09</td>
+      <td>0.08</td>
       <td>0.03</td>
       <td>0.03</td>
       <td>0.03</td>
-      <td>0.01</td>
+      <td>0.02</td>
       <td>0.04</td>
       <td>0.04</td>
       <td>0.02</td>
-      <td>0.04</td>
+      <td>0.03</td>
       <td>0.02</td>
       <td>0.02</td>
       <td>0.04</td>
       <td>0.03</td>
-      <td>0.09</td>
-      <td>0.09</td>
       <td>0.07</td>
-      <td>0.03</td>
+      <td>0.07</td>
+      <td>0.06</td>
+      <td>0.02</td>
     </tr>
     <tr>
       <th>F2A6</th>
       <td>-0.19</td>
-      <td>-0.20</td>
+      <td>-0.19</td>
       <td>0.52</td>
-      <td>1.00</td>
-      <td>0.03</td>
+      <td>0.99</td>
+      <td>0.04</td>
       <td>0.01</td>
       <td>0.09</td>
       <td>0.05</td>
@@ -1078,8 +1078,8 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>0.04</td>
       <td>0.05</td>
       <td>0.05</td>
-      <td>0.02</td>
-      <td>0.06</td>
+      <td>0.03</td>
+      <td>0.07</td>
       <td>0.07</td>
       <td>0.03</td>
       <td>0.06</td>
@@ -1087,598 +1087,598 @@ type="button" role="tab" aria-controls="modelimplied" aria-selected="false">Mode
       <td>0.03</td>
       <td>0.07</td>
       <td>0.05</td>
-      <td>0.14</td>
-      <td>0.14</td>
-      <td>0.12</td>
-      <td>0.05</td>
+      <td>0.11</td>
+      <td>0.13</td>
+      <td>0.10</td>
+      <td>0.04</td>
     </tr>
     <tr>
       <th>F3A16_1</th>
-      <td>-0.04</td>
-      <td>-0.04</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>0.02</td>
-      <td>0.03</td>
-      <td>1.00</td>
-      <td>0.40</td>
+      <td>0.04</td>
+      <td>0.98</td>
+      <td>0.39</td>
       <td>0.04</td>
       <td>0.08</td>
       <td>0.07</td>
       <td>0.07</td>
-      <td>0.08</td>
+      <td>0.07</td>
       <td>0.08</td>
       <td>0.04</td>
       <td>0.11</td>
-      <td>0.12</td>
+      <td>0.11</td>
       <td>0.05</td>
-      <td>0.10</td>
-      <td>0.05</td>
-      <td>0.05</td>
-      <td>0.12</td>
       <td>0.09</td>
-      <td>-0.02</td>
-      <td>-0.02</td>
-      <td>-0.02</td>
-      <td>-0.01</td>
+      <td>0.05</td>
+      <td>0.05</td>
+      <td>0.12</td>
+      <td>0.08</td>
+      <td>-0.07</td>
+      <td>-0.08</td>
+      <td>-0.06</td>
+      <td>-0.03</td>
     </tr>
     <tr>
       <th>F3A17_1</th>
-      <td>-0.02</td>
-      <td>-0.02</td>
-      <td>0.01</td>
-      <td>0.01</td>
-      <td>0.40</td>
-      <td>1.00</td>
-      <td>0.02</td>
-      <td>0.04</td>
-      <td>0.03</td>
-      <td>0.04</td>
-      <td>0.04</td>
-      <td>0.04</td>
-      <td>0.02</td>
-      <td>0.05</td>
-      <td>0.06</td>
-      <td>0.02</td>
-      <td>0.05</td>
-      <td>0.03</td>
-      <td>0.03</td>
-      <td>0.05</td>
-      <td>0.04</td>
-      <td>-0.01</td>
-      <td>-0.01</td>
-      <td>-0.01</td>
       <td>-0.00</td>
+      <td>-0.00</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.39</td>
+      <td>0.95</td>
+      <td>0.02</td>
+      <td>0.03</td>
+      <td>0.02</td>
+      <td>0.02</td>
+      <td>0.03</td>
+      <td>0.03</td>
+      <td>0.01</td>
+      <td>0.04</td>
+      <td>0.04</td>
+      <td>0.02</td>
+      <td>0.03</td>
+      <td>0.02</td>
+      <td>0.02</td>
+      <td>0.04</td>
+      <td>0.03</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
     </tr>
     <tr>
       <th>F3A21_1</th>
       <td>-0.08</td>
       <td>-0.08</td>
-      <td>0.06</td>
+      <td>0.05</td>
       <td>0.09</td>
       <td>0.04</td>
       <td>0.02</td>
-      <td>1.00</td>
+      <td>0.93</td>
       <td>0.08</td>
-      <td>0.50</td>
-      <td>0.08</td>
+      <td>0.48</td>
+      <td>0.07</td>
       <td>0.08</td>
       <td>0.08</td>
       <td>0.04</td>
       <td>0.11</td>
-      <td>0.12</td>
+      <td>0.11</td>
       <td>0.05</td>
-      <td>0.10</td>
-      <td>0.06</td>
-      <td>0.06</td>
-      <td>0.12</td>
       <td>0.09</td>
-      <td>-0.03</td>
-      <td>-0.03</td>
-      <td>-0.03</td>
+      <td>0.05</td>
+      <td>0.05</td>
+      <td>0.12</td>
+      <td>0.08</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
       <td>-0.01</td>
     </tr>
     <tr>
       <th>F5A10_1</th>
-      <td>-0.04</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
       <td>0.03</td>
       <td>0.05</td>
       <td>0.08</td>
-      <td>0.04</td>
+      <td>0.03</td>
       <td>0.08</td>
-      <td>1.00</td>
+      <td>0.99</td>
       <td>0.13</td>
-      <td>0.71</td>
-      <td>0.22</td>
-      <td>0.65</td>
+      <td>0.70</td>
+      <td>0.21</td>
+      <td>0.64</td>
       <td>0.12</td>
       <td>0.31</td>
-      <td>0.33</td>
+      <td>0.31</td>
       <td>0.15</td>
-      <td>0.27</td>
-      <td>0.15</td>
-      <td>0.15</td>
-      <td>0.32</td>
       <td>0.25</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.13</td>
+      <td>0.15</td>
+      <td>0.34</td>
+      <td>0.24</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5A10_2</th>
-      <td>-0.12</td>
       <td>-0.13</td>
-      <td>0.09</td>
+      <td>-0.12</td>
+      <td>0.08</td>
       <td>0.14</td>
       <td>0.07</td>
-      <td>0.03</td>
-      <td>0.50</td>
+      <td>0.02</td>
+      <td>0.48</td>
       <td>0.13</td>
-      <td>1.00</td>
+      <td>0.98</td>
       <td>0.12</td>
       <td>0.12</td>
       <td>0.13</td>
       <td>0.07</td>
       <td>0.18</td>
-      <td>0.19</td>
+      <td>0.18</td>
+      <td>0.09</td>
+      <td>0.15</td>
       <td>0.08</td>
-      <td>0.16</td>
       <td>0.09</td>
-      <td>0.09</td>
-      <td>0.19</td>
+      <td>0.20</td>
       <td>0.14</td>
-      <td>-0.05</td>
-      <td>-0.05</td>
+      <td>-0.03</td>
       <td>-0.04</td>
-      <td>-0.02</td>
+      <td>-0.03</td>
+      <td>-0.01</td>
     </tr>
     <tr>
       <th>F5A11_1</th>
-      <td>-0.04</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
       <td>0.03</td>
       <td>0.04</td>
       <td>0.07</td>
-      <td>0.04</td>
-      <td>0.08</td>
-      <td>0.71</td>
+      <td>0.02</td>
+      <td>0.07</td>
+      <td>0.70</td>
       <td>0.12</td>
-      <td>1.00</td>
+      <td>0.98</td>
       <td>0.20</td>
-      <td>0.63</td>
+      <td>0.61</td>
       <td>0.11</td>
       <td>0.29</td>
-      <td>0.31</td>
+      <td>0.29</td>
       <td>0.14</td>
-      <td>0.26</td>
-      <td>0.14</td>
-      <td>0.14</td>
-      <td>0.30</td>
       <td>0.24</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.12</td>
+      <td>0.14</td>
+      <td>0.32</td>
+      <td>0.22</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5A12_1</th>
-      <td>-0.04</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
       <td>0.03</td>
       <td>0.05</td>
+      <td>0.07</td>
+      <td>0.03</td>
       <td>0.08</td>
-      <td>0.04</td>
-      <td>0.08</td>
-      <td>0.22</td>
+      <td>0.21</td>
       <td>0.12</td>
       <td>0.20</td>
-      <td>1.00</td>
+      <td>0.99</td>
       <td>0.22</td>
-      <td>0.11</td>
+      <td>0.12</td>
       <td>0.30</td>
-      <td>0.32</td>
-      <td>0.14</td>
-      <td>0.27</td>
+      <td>0.30</td>
       <td>0.15</td>
-      <td>0.15</td>
-      <td>0.32</td>
       <td>0.25</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.13</td>
+      <td>0.15</td>
+      <td>0.33</td>
+      <td>0.23</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5A13_1</th>
-      <td>-0.04</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
       <td>0.03</td>
       <td>0.05</td>
       <td>0.08</td>
-      <td>0.04</td>
+      <td>0.03</td>
       <td>0.08</td>
-      <td>0.65</td>
+      <td>0.64</td>
       <td>0.13</td>
-      <td>0.63</td>
+      <td>0.61</td>
       <td>0.22</td>
-      <td>1.00</td>
+      <td>0.98</td>
       <td>0.12</td>
       <td>0.31</td>
-      <td>0.33</td>
+      <td>0.31</td>
       <td>0.15</td>
-      <td>0.28</td>
-      <td>0.15</td>
-      <td>0.16</td>
-      <td>0.33</td>
       <td>0.25</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.13</td>
+      <td>0.15</td>
+      <td>0.34</td>
+      <td>0.24</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5A14_1</th>
       <td>-0.02</td>
       <td>-0.02</td>
-      <td>0.01</td>
       <td>0.02</td>
+      <td>0.03</td>
       <td>0.04</td>
-      <td>0.02</td>
+      <td>0.01</td>
       <td>0.04</td>
       <td>0.12</td>
       <td>0.07</td>
       <td>0.11</td>
-      <td>0.11</td>
       <td>0.12</td>
-      <td>1.00</td>
-      <td>0.16</td>
+      <td>0.12</td>
+      <td>1.06</td>
+      <td>0.17</td>
       <td>0.17</td>
       <td>0.08</td>
       <td>0.14</td>
+      <td>0.07</td>
       <td>0.08</td>
-      <td>0.08</td>
-      <td>0.17</td>
+      <td>0.19</td>
       <td>0.13</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5aA1_1</th>
       <td>-0.05</td>
-      <td>-0.05</td>
+      <td>-0.04</td>
       <td>0.04</td>
-      <td>0.06</td>
+      <td>0.07</td>
       <td>0.11</td>
-      <td>0.05</td>
+      <td>0.04</td>
       <td>0.11</td>
       <td>0.31</td>
       <td>0.18</td>
       <td>0.29</td>
       <td>0.30</td>
       <td>0.31</td>
-      <td>0.16</td>
-      <td>1.00</td>
-      <td>0.46</td>
+      <td>0.17</td>
+      <td>1.01</td>
+      <td>0.43</td>
       <td>0.21</td>
-      <td>0.38</td>
+      <td>0.36</td>
+      <td>0.19</td>
       <td>0.21</td>
-      <td>0.21</td>
-      <td>0.49</td>
-      <td>0.35</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.52</td>
+      <td>0.33</td>
+      <td>-0.01</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
     </tr>
     <tr>
       <th>F5aA2_1</th>
-      <td>-0.06</td>
-      <td>-0.06</td>
+      <td>-0.05</td>
+      <td>-0.04</td>
       <td>0.04</td>
       <td>0.07</td>
-      <td>0.12</td>
-      <td>0.06</td>
-      <td>0.12</td>
-      <td>0.33</td>
-      <td>0.19</td>
+      <td>0.11</td>
+      <td>0.04</td>
+      <td>0.11</td>
       <td>0.31</td>
-      <td>0.32</td>
-      <td>0.33</td>
+      <td>0.18</td>
+      <td>0.29</td>
+      <td>0.30</td>
+      <td>0.31</td>
       <td>0.17</td>
-      <td>0.46</td>
-      <td>1.00</td>
-      <td>0.22</td>
-      <td>0.41</td>
-      <td>0.23</td>
-      <td>0.23</td>
+      <td>0.43</td>
+      <td>0.88</td>
+      <td>0.21</td>
+      <td>0.36</td>
+      <td>0.19</td>
+      <td>0.21</td>
       <td>0.48</td>
-      <td>0.37</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.33</td>
+      <td>-0.01</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
     </tr>
     <tr>
       <th>F5aA3_1</th>
-      <td>-0.03</td>
-      <td>-0.03</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
       <td>0.02</td>
       <td>0.03</td>
       <td>0.05</td>
       <td>0.02</td>
       <td>0.05</td>
       <td>0.15</td>
-      <td>0.08</td>
+      <td>0.09</td>
       <td>0.14</td>
-      <td>0.14</td>
+      <td>0.15</td>
       <td>0.15</td>
       <td>0.08</td>
       <td>0.21</td>
-      <td>0.22</td>
-      <td>1.00</td>
-      <td>0.18</td>
-      <td>0.36</td>
-      <td>0.10</td>
       <td>0.21</td>
-      <td>0.17</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>1.06</td>
+      <td>0.18</td>
+      <td>0.33</td>
+      <td>0.10</td>
+      <td>0.24</td>
+      <td>0.16</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5bA1_1</th>
-      <td>-0.05</td>
-      <td>-0.05</td>
-      <td>0.04</td>
+      <td>-0.04</td>
+      <td>-0.04</td>
+      <td>0.03</td>
       <td>0.06</td>
-      <td>0.10</td>
-      <td>0.05</td>
-      <td>0.10</td>
-      <td>0.27</td>
-      <td>0.16</td>
-      <td>0.26</td>
-      <td>0.27</td>
-      <td>0.28</td>
+      <td>0.09</td>
+      <td>0.03</td>
+      <td>0.09</td>
+      <td>0.25</td>
+      <td>0.15</td>
+      <td>0.24</td>
+      <td>0.25</td>
+      <td>0.25</td>
       <td>0.14</td>
-      <td>0.38</td>
-      <td>0.41</td>
+      <td>0.36</td>
+      <td>0.36</td>
       <td>0.18</td>
-      <td>1.00</td>
-      <td>0.19</td>
-      <td>0.19</td>
-      <td>0.40</td>
-      <td>0.31</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.86</td>
+      <td>0.16</td>
+      <td>0.17</td>
+      <td>0.39</td>
+      <td>0.27</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5bA2_1</th>
-      <td>-0.03</td>
-      <td>-0.03</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
       <td>0.02</td>
       <td>0.03</td>
       <td>0.05</td>
-      <td>0.03</td>
-      <td>0.06</td>
-      <td>0.15</td>
-      <td>0.09</td>
-      <td>0.14</td>
-      <td>0.15</td>
-      <td>0.15</td>
+      <td>0.02</td>
+      <td>0.05</td>
+      <td>0.13</td>
       <td>0.08</td>
-      <td>0.21</td>
-      <td>0.23</td>
-      <td>0.36</td>
+      <td>0.12</td>
+      <td>0.13</td>
+      <td>0.13</td>
+      <td>0.07</td>
       <td>0.19</td>
-      <td>0.90</td>
-      <td>0.48</td>
-      <td>0.22</td>
-      <td>0.17</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.19</td>
+      <td>0.33</td>
+      <td>0.16</td>
+      <td>0.71</td>
+      <td>0.42</td>
+      <td>0.21</td>
+      <td>0.14</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5bA3_1</th>
-      <td>-0.03</td>
-      <td>-0.03</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
       <td>0.02</td>
       <td>0.03</td>
       <td>0.05</td>
-      <td>0.03</td>
-      <td>0.06</td>
+      <td>0.02</td>
+      <td>0.05</td>
       <td>0.15</td>
       <td>0.09</td>
       <td>0.14</td>
       <td>0.15</td>
-      <td>0.16</td>
+      <td>0.15</td>
       <td>0.08</td>
       <td>0.21</td>
-      <td>0.23</td>
+      <td>0.21</td>
       <td>0.10</td>
-      <td>0.19</td>
-      <td>0.48</td>
-      <td>1.00</td>
-      <td>0.22</td>
       <td>0.17</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.42</td>
+      <td>0.95</td>
+      <td>0.23</td>
+      <td>0.16</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>F5bA4_1</th>
-      <td>-0.06</td>
-      <td>-0.06</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
       <td>0.04</td>
       <td>0.07</td>
       <td>0.12</td>
-      <td>0.05</td>
+      <td>0.04</td>
       <td>0.12</td>
-      <td>0.32</td>
-      <td>0.19</td>
-      <td>0.30</td>
+      <td>0.34</td>
+      <td>0.20</td>
       <td>0.32</td>
       <td>0.33</td>
-      <td>0.17</td>
-      <td>0.49</td>
+      <td>0.34</td>
+      <td>0.19</td>
+      <td>0.52</td>
       <td>0.48</td>
+      <td>0.24</td>
+      <td>0.39</td>
       <td>0.21</td>
-      <td>0.40</td>
-      <td>0.22</td>
-      <td>0.22</td>
-      <td>1.00</td>
+      <td>0.23</td>
+      <td>1.13</td>
       <td>0.37</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
     </tr>
     <tr>
       <th>F5bA5_1</th>
-      <td>-0.04</td>
-      <td>-0.04</td>
+      <td>-0.03</td>
+      <td>-0.03</td>
       <td>0.03</td>
       <td>0.05</td>
-      <td>0.09</td>
-      <td>0.04</td>
-      <td>0.09</td>
-      <td>0.25</td>
-      <td>0.14</td>
+      <td>0.08</td>
+      <td>0.03</td>
+      <td>0.08</td>
       <td>0.24</td>
-      <td>0.25</td>
-      <td>0.25</td>
+      <td>0.14</td>
+      <td>0.22</td>
+      <td>0.23</td>
+      <td>0.24</td>
       <td>0.13</td>
-      <td>0.35</td>
+      <td>0.33</td>
+      <td>0.33</td>
+      <td>0.16</td>
+      <td>0.27</td>
+      <td>0.14</td>
+      <td>0.16</td>
       <td>0.37</td>
-      <td>0.17</td>
-      <td>0.31</td>
-      <td>0.17</td>
-      <td>0.17</td>
-      <td>0.37</td>
-      <td>1.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
+      <td>0.90</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
     </tr>
     <tr>
       <th>MSCI_world</th>
       <td>0.02</td>
       <td>0.02</td>
-      <td>0.09</td>
-      <td>0.14</td>
+      <td>0.07</td>
+      <td>0.11</td>
+      <td>-0.07</td>
+      <td>-0.03</td>
       <td>-0.02</td>
       <td>-0.01</td>
       <td>-0.03</td>
-      <td>-0.00</td>
-      <td>-0.05</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>1.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
       <td>0.94</td>
-      <td>0.82</td>
-      <td>0.37</td>
+      <td>0.95</td>
+      <td>0.67</td>
+      <td>0.29</td>
     </tr>
     <tr>
       <th>dax_points</th>
       <td>0.02</td>
       <td>0.02</td>
-      <td>0.09</td>
-      <td>0.14</td>
+      <td>0.07</td>
+      <td>0.13</td>
+      <td>-0.08</td>
+      <td>-0.03</td>
       <td>-0.02</td>
       <td>-0.01</td>
-      <td>-0.03</td>
-      <td>-0.00</td>
-      <td>-0.05</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>0.94</td>
-      <td>1.00</td>
-      <td>0.70</td>
-      <td>0.23</td>
+      <td>-0.04</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.02</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.02</td>
+      <td>-0.01</td>
+      <td>0.95</td>
+      <td>1.08</td>
+      <td>0.61</td>
+      <td>0.19</td>
     </tr>
     <tr>
       <th>inflation_rate</th>
       <td>0.02</td>
       <td>0.02</td>
-      <td>0.07</td>
-      <td>0.12</td>
+      <td>0.06</td>
+      <td>0.10</td>
+      <td>-0.06</td>
+      <td>-0.02</td>
       <td>-0.02</td>
       <td>-0.01</td>
       <td>-0.03</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
-      <td>-0.04</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>0.82</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
+      <td>0.67</td>
+      <td>0.61</td>
       <td>0.70</td>
-      <td>1.00</td>
-      <td>0.76</td>
+      <td>0.51</td>
     </tr>
     <tr>
       <th>interest_rate</th>
       <td>0.01</td>
       <td>0.01</td>
-      <td>0.03</td>
-      <td>0.05</td>
+      <td>0.02</td>
+      <td>0.04</td>
+      <td>-0.03</td>
+      <td>-0.01</td>
       <td>-0.01</td>
       <td>-0.00</td>
       <td>-0.01</td>
       <td>-0.00</td>
-      <td>-0.02</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.00</td>
+      <td>-0.01</td>
+      <td>-0.01</td>
       <td>-0.00</td>
       <td>-0.00</td>
       <td>-0.00</td>
       <td>-0.00</td>
+      <td>-0.01</td>
       <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>-0.00</td>
-      <td>0.37</td>
-      <td>0.23</td>
-      <td>0.76</td>
-      <td>1.00</td>
+      <td>0.29</td>
+      <td>0.19</td>
+      <td>0.51</td>
+      <td>0.64</td>
     </tr>
   </tbody>
 </table></div></div><br><center><h4>Model matrices</h4></center><ul class="nav nav-tabs" id="modelmatrices" role="tablist"><li class="nav-item" role="presentation">
@@ -1710,7 +1710,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -1726,12 +1726,12 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
     </tr>
     <tr>
       <th>Economical_Indices</th>
-      <td>0.19</td>
+      <td>-0.07</td>
       <td>0.00</td>
-      <td>0.84</td>
+      <td>0.40</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.53</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>Energy_Crisis_Sentiment</th>
@@ -1752,13 +1752,13 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
-      <td>1.97</td>
+      <th>Investment_Opinion</th>
+      <td>0.02</td>
       <td>0.00</td>
-      <td>-0.11</td>
-      <td>-0.26</td>
+      <td>-0.56</td>
+      <td>0.19</td>
       <td>0.00</td>
-      <td>0.07</td>
+      <td>-0.06</td>
     </tr>
     <tr>
       <th>Ukraine_Sentiment</th>
@@ -1778,7 +1778,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -1820,7 +1820,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -1846,7 +1846,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -1888,7 +1888,7 @@ type="button" role="tab" aria-controls="BetaNames" aria-selected="false">Names</
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>_b29</td>
       <td>0.00</td>
       <td>_b27</td>
@@ -1923,7 +1923,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -1941,7 +1941,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <th>F1A14_1</th>
       <td>0.00</td>
       <td>0.00</td>
-      <td>1.03</td>
+      <td>0.98</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -1962,7 +1962,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>1.61</td>
+      <td>1.70</td>
     </tr>
     <tr>
       <th>F3A16_1</th>
@@ -1975,7 +1975,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
     </tr>
     <tr>
       <th>F3A17_1</th>
-      <td>0.47</td>
+      <td>0.34</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2006,7 +2006,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>1.55</td>
+      <td>1.63</td>
       <td>0.00</td>
     </tr>
     <tr>
@@ -2014,7 +2014,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.68</td>
+      <td>0.66</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2032,7 +2032,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.73</td>
+      <td>0.71</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2041,7 +2041,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.38</td>
+      <td>0.39</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2059,7 +2059,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>1.06</td>
+      <td>1.00</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2068,7 +2068,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.48</td>
+      <td>0.49</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2077,7 +2077,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.89</td>
+      <td>0.82</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2086,7 +2086,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.49</td>
+      <td>0.43</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2095,7 +2095,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.48</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2104,7 +2104,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>1.04</td>
+      <td>1.11</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2113,14 +2113,14 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.81</td>
+      <td>0.77</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
     <tr>
       <th>MSCI_world</th>
       <td>0.00</td>
-      <td>1.15</td>
+      <td>1.19</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2129,7 +2129,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
     <tr>
       <th>dax_points</th>
       <td>0.00</td>
-      <td>1.18</td>
+      <td>1.33</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2147,7 +2147,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
     <tr>
       <th>interest_rate</th>
       <td>0.00</td>
-      <td>0.38</td>
+      <td>0.43</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2162,7 +2162,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2214,7 +2214,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
     </tr>
     <tr>
       <th>F3A17_1</th>
-      <td>0.40</td>
+      <td>0.39</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2235,7 +2235,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.40</td>
+      <td>0.39</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2245,7 +2245,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.51</td>
       <td>0.00</td>
     </tr>
     <tr>
@@ -2253,7 +2253,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.44</td>
+      <td>0.43</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2298,7 +2298,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.47</td>
+      <td>0.44</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2307,7 +2307,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.10</td>
+      <td>0.11</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2316,7 +2316,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.48</td>
+      <td>0.45</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2325,7 +2325,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.14</td>
+      <td>0.12</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2343,7 +2343,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.49</td>
+      <td>0.51</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -2352,14 +2352,14 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.37</td>
+      <td>0.35</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
     <tr>
       <th>MSCI_world</th>
       <td>0.00</td>
-      <td>0.82</td>
+      <td>0.95</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2368,7 +2368,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
     <tr>
       <th>dax_points</th>
       <td>0.00</td>
-      <td>0.70</td>
+      <td>0.86</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2386,7 +2386,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
     <tr>
       <th>interest_rate</th>
       <td>0.00</td>
-      <td>0.76</td>
+      <td>0.73</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2401,7 +2401,7 @@ type="button" role="tab" aria-controls="LambdaNames" aria-selected="false">Names
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2649,16 +2649,16 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>Corona_Sentiment</th>
-      <td>0.03</td>
+      <td>0.98</td>
       <td>0.00</td>
-      <td>-0.04</td>
+      <td>-0.01</td>
       <td>0.11</td>
       <td>0.00</td>
       <td>0.02</td>
@@ -2666,7 +2666,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
     <tr>
       <th>Economical_Indices</th>
       <td>0.00</td>
-      <td>0.66</td>
+      <td>0.58</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2674,12 +2674,12 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
     </tr>
     <tr>
       <th>Energy_Crisis_Sentiment</th>
-      <td>-0.04</td>
+      <td>-0.01</td>
       <td>0.00</td>
-      <td>0.11</td>
+      <td>0.14</td>
       <td>-0.05</td>
       <td>0.00</td>
-      <td>-0.12</td>
+      <td>-0.11</td>
     </tr>
     <tr>
       <th>Information_Awareness</th>
@@ -2691,22 +2691,22 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <td>0.04</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.08</td>
+      <td>0.28</td>
       <td>0.00</td>
     </tr>
     <tr>
       <th>Ukraine_Sentiment</th>
       <td>0.02</td>
       <td>0.00</td>
-      <td>-0.12</td>
+      <td>-0.11</td>
       <td>0.04</td>
       <td>0.00</td>
-      <td>0.32</td>
+      <td>0.31</td>
     </tr>
   </tbody>
 </table></div><div class="tab-pane fade " id="PsiStart" role="tabpanel" aria-labelledby="PsiStart-tab"><table border="1" class="dataframe table table-bordered">
@@ -2717,7 +2717,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2759,7 +2759,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <td>0.00</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2785,7 +2785,7 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Economical_Indices</th>
       <th>Energy_Crisis_Sentiment</th>
       <th>Information_Awareness</th>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <th>Ukraine_Sentiment</th>
     </tr>
   </thead>
@@ -2794,15 +2794,15 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
       <th>Corona_Sentiment</th>
       <td>_c28</td>
       <td>0.00</td>
-      <td>_c29</td>
-      <td>_c30</td>
-      <td>0.00</td>
       <td>_c31</td>
+      <td>_c47</td>
+      <td>0.00</td>
+      <td>_c51</td>
     </tr>
     <tr>
       <th>Economical_Indices</th>
       <td>0.00</td>
-      <td>_c32</td>
+      <td>_c29</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2810,39 +2810,39 @@ type="button" role="tab" aria-controls="PsiNames" aria-selected="false">Names</b
     </tr>
     <tr>
       <th>Energy_Crisis_Sentiment</th>
-      <td>_c29</td>
+      <td>_c31</td>
+      <td>0.00</td>
+      <td>_c30</td>
+      <td>_c32</td>
       <td>0.00</td>
       <td>_c33</td>
-      <td>_c47</td>
-      <td>0.00</td>
-      <td>_c50</td>
     </tr>
     <tr>
       <th>Information_Awareness</th>
-      <td>_c30</td>
-      <td>0.00</td>
       <td>_c47</td>
+      <td>0.00</td>
+      <td>_c32</td>
       <td>_c46</td>
       <td>0.00</td>
-      <td>_c51</td>
+      <td>_c48</td>
     </tr>
     <tr>
-      <th>Investment_Behavior</th>
+      <th>Investment_Opinion</th>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>_c48</td>
+      <td>_c49</td>
       <td>0.00</td>
     </tr>
     <tr>
       <th>Ukraine_Sentiment</th>
-      <td>_c31</td>
-      <td>0.00</td>
-      <td>_c50</td>
       <td>_c51</td>
       <td>0.00</td>
-      <td>_c49</td>
+      <td>_c33</td>
+      <td>_c48</td>
+      <td>0.00</td>
+      <td>_c50</td>
     </tr>
   </tbody>
 </table></div></div></div><div class="tab-pane fade " id="mxTheta" role="tabpanel" aria-labelledby="mxTheta-tab"><ul class="nav nav-tabs" id="Thetasub" role="tablist"><li class="nav-item" role="presentation">
@@ -2888,8 +2888,8 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
   <tbody>
     <tr>
       <th>F1A13_1</th>
-      <td>0.89</td>
-      <td>0.27</td>
+      <td>0.76</td>
+      <td>0.21</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2916,8 +2916,8 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
     </tr>
     <tr>
       <th>F1A14_1</th>
-      <td>0.27</td>
-      <td>0.89</td>
+      <td>0.21</td>
+      <td>0.78</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2946,7 +2946,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <th>F2A14</th>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.68</td>
+      <td>0.70</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -2975,7 +2975,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.16</td>
+      <td>0.10</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3004,8 +3004,8 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.97</td>
-      <td>0.39</td>
+      <td>0.00</td>
+      <td>0.06</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3032,8 +3032,8 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.39</td>
-      <td>0.99</td>
+      <td>0.06</td>
+      <td>0.84</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3062,9 +3062,9 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.85</td>
+      <td>0.59</td>
       <td>0.00</td>
-      <td>0.27</td>
+      <td>-0.08</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3093,9 +3093,9 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.78</td>
       <td>0.00</td>
-      <td>0.51</td>
+      <td>0.50</td>
       <td>0.00</td>
-      <td>0.43</td>
+      <td>0.42</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3118,9 +3118,9 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.27</td>
+      <td>-0.08</td>
       <td>0.00</td>
-      <td>0.64</td>
+      <td>0.08</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3147,11 +3147,11 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.51</td>
+      <td>0.50</td>
       <td>0.00</td>
-      <td>0.80</td>
+      <td>0.78</td>
       <td>0.00</td>
-      <td>0.42</td>
+      <td>0.41</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3178,7 +3178,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.79</td>
+      <td>0.78</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3203,11 +3203,11 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.43</td>
-      <td>0.00</td>
       <td>0.42</td>
       <td>0.00</td>
-      <td>0.77</td>
+      <td>0.41</td>
+      <td>0.00</td>
+      <td>0.76</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3236,7 +3236,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.94</td>
+      <td>0.99</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3294,7 +3294,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.51</td>
+      <td>0.45</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3323,9 +3323,9 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.90</td>
+      <td>0.96</td>
       <td>0.00</td>
-      <td>0.26</td>
+      <td>0.24</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3352,7 +3352,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.66</td>
+      <td>0.56</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3379,10 +3379,10 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.26</td>
+      <td>0.24</td>
       <td>0.00</td>
-      <td>0.80</td>
-      <td>0.38</td>
+      <td>0.63</td>
+      <td>0.33</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3409,8 +3409,8 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.38</td>
-      <td>0.89</td>
+      <td>0.33</td>
+      <td>0.84</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3439,7 +3439,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.53</td>
+      <td>0.60</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3468,7 +3468,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.72</td>
+      <td>0.64</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3497,10 +3497,10 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.06</td>
-      <td>-0.03</td>
-      <td>-0.00</td>
-      <td>0.06</td>
+      <td>0.08</td>
+      <td>-0.02</td>
+      <td>-0.06</td>
+      <td>-0.02</td>
     </tr>
     <tr>
       <th>dax_points</th>
@@ -3525,10 +3525,10 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>-0.03</td>
-      <td>0.01</td>
-      <td>-0.14</td>
-      <td>-0.10</td>
+      <td>-0.02</td>
+      <td>0.00</td>
+      <td>-0.20</td>
+      <td>-0.16</td>
     </tr>
     <tr>
       <th>inflation_rate</th>
@@ -3553,10 +3553,10 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>-0.00</td>
-      <td>-0.14</td>
-      <td>0.29</td>
-      <td>0.49</td>
+      <td>-0.06</td>
+      <td>-0.20</td>
+      <td>0.09</td>
+      <td>0.25</td>
     </tr>
     <tr>
       <th>interest_rate</th>
@@ -3581,10 +3581,10 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.06</td>
-      <td>-0.10</td>
-      <td>0.49</td>
-      <td>0.90</td>
+      <td>-0.02</td>
+      <td>-0.16</td>
+      <td>0.25</td>
+      <td>0.53</td>
     </tr>
   </tbody>
 </table></div><div class="tab-pane fade " id="ThetaStart" role="tabpanel" aria-labelledby="ThetaStart-tab"><table border="1" class="dataframe table table-bordered">
@@ -3621,7 +3621,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
   <tbody>
     <tr>
       <th>F1A13_1</th>
-      <td>0.50</td>
+      <td>0.45</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3650,7 +3650,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
     <tr>
       <th>F1A14_1</th>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.46</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3708,7 +3708,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.49</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3737,7 +3737,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.49</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3766,7 +3766,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.47</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3795,7 +3795,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.47</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3853,7 +3853,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.49</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3882,7 +3882,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.49</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3911,7 +3911,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.49</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3940,7 +3940,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.49</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -3969,7 +3969,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.53</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4027,7 +4027,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.44</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4056,7 +4056,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.53</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4085,7 +4085,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.43</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4114,7 +4114,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.39</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4143,7 +4143,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.47</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4172,7 +4172,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.56</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4201,7 +4201,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.45</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4230,7 +4230,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.47</td>
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
@@ -4259,7 +4259,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.54</td>
       <td>0.00</td>
       <td>0.00</td>
     </tr>
@@ -4288,7 +4288,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.35</td>
       <td>0.00</td>
     </tr>
     <tr>
@@ -4317,7 +4317,7 @@ type="button" role="tab" aria-controls="ThetaNames" aria-selected="false">Names<
       <td>0.00</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>0.50</td>
+      <td>0.32</td>
     </tr>
   </tbody>
 </table></div><div class="tab-pane fade " id="ThetaNames" role="tabpanel" aria-labelledby="ThetaNames-tab"><table border="1" class="dataframe table table-bordered">
